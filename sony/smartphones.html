@@ -402,9 +402,12 @@
 <script type="text/javascript">
 
 	function initPage() {
-		head.load(prefixURL + "js/jquery.colorbox.js");
-		head.load(prefixURL + "js/jquery.bxslider.js", function () {
+		
+		head.load(prefixURL + "js/jquery.colorbox.js", function () {
 			$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+		});
+
+		head.load(prefixURL + "js/jquery.bxslider.js", function () {
 		  	$('.product_bxslider').bxSlider({
 				mode: 'horizontal',
 		        infiniteLoop: false,
