@@ -1,0 +1,71 @@
+@import 'bootstrap';
+
+.homepage .menu {
+	margin-bottom:0px;
+	background-color:black;
+	z-index:999;
+}
+
+.line-height
+{
+	line-height:20px;
+}
+
+.sup {
+	vertical-align: 75%;
+ 	line-height: 5px;
+	font-size:8px;
+}
+
+.supSlider {
+	vertical-align: 95%;
+ 	line-height: 14px;
+	font-size:14px;
+}
+
+.header {
+	text-align: center;
+	color:#ffffff;
+	//background-color:#000000;
+	background: #000000; /* Old browsers */
+	background: -moz-linear-gradient(left,  #000000 0%, #8092ba 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#000000), color-stop(100%,#8092ba)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #000000 0%,#8092ba 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #000000 0%,#8092ba 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #000000 0%,#8092ba 100%); /* IE10+ */
+	background: linear-gradient(to right,  #000000 0%,#8092ba 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#8092ba',GradientType=1 ); /* IE6-9 */
+}
+
+.accessories .header {
+	background: #c8692f; /* Old browsers */
+}
+.coolstuffs .header {
+	background: #216ca8; /* Old browsers */
+}
+
+.ui-tooltip, .arrow:after {
+	background: black;
+	border: 2px solid white;
+}
+.ui-tooltip {
+	position:absolute;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+	font: bold 14px "Helvetica Neue", Sans-Serif;
+	text-transform: uppercase;
+	box-shadow: 0 0 7px black;
+}
+
+.xperiabg, .accessories {
+	h1,h2,h3,h4,h5,h6 {
+		color:#ffffff;
+	}
+}
+
+.products_comp {
+	p {
+		font-size: 12px;
+	}	
+}

@@ -1,0 +1,44 @@
+<div class="ms-wrapper">
+	<div class="container_25" >
+		<!-- content -->
+		<div id="ms-content" style="margin-left:-15px; margin-top:-15px;"><!-- loaded via ajax --></div>
+		<div id="ms-loading"></div>
+
+	</div>
+</div>
+
+<!-- scripts -->
+<script type="text/javascript">
+<!--
+
+var projectName = "sony";
+var inSandbox = true;
+var contentWrapper = '.ms-wrapper';
+var ajaxWrapper = '#ms-content';
+
+var sandboxURL = '/sony/';
+var liveURL = '/../imagesPortal/UK/localisation/4/microsites/sony/';
+var prefixURL;
+
+prefixURL = (inSandbox) ? prefixURL = sandboxURL : prefixURL = liveURL;
+
+function initProject() {
+
+	// multi-page microsite content management
+	head.load(prefixURL + "css/multi-page.css");
+	head.load(prefixURL + "css/styles.css");
+	head.load(prefixURL + "js/multi-page.js", function() {
+		initContent();
+	});
+}
+
+// run initProject - externally called if in sandbox
+//
+if (inSandbox != true) {
+	$(document).ready(function () {
+		initProject();
+	});
+}
+	
+//-->
+</script>
