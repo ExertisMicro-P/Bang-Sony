@@ -2,7 +2,7 @@
 
 Project Name: MicroP - Sony 
 Author: Farhan Farrukh 
-Date: 2014-03-11 
+Date: 2014-03-12 
 
 */
 
@@ -515,6 +515,7 @@ ol, ul {
   list-style: none; }
 
 .container_25 {
+  font-family: Helvetica, Arial, sans-serif;
   backgound-color: #000000;
   /** The Magnificent Clearfix: Updated to prevent margin-collapsing on child elements.  mp/bestclearfix **/
   /** Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page **/ }
@@ -1114,7 +1115,7 @@ ol, ul {
 ===================================*/
 .products_comp .bx-wrapper {
   position: relative;
-  margin: 0 60px 60px !important;
+  margin: 0 80px 60px !important;
   max-width: 840px !important;
   padding: 0;
   *zoom: 1; }
@@ -1393,7 +1394,7 @@ ol, ul {
 .drag--headings {
   padding: 10px;
   position: absolute;
-  width: 920px;
+  width: 100%;
   background: -moz-linear-gradient(left, #d68343 0%, rgba(167, 160, 154, 0.07) 53%, rgba(125, 185, 232, 0.07) 100%);
   /* FF3.6+ */
   background: -webkit-gradient(linear, left top, right top, color-stop(0%, #d68343), color-stop(53%, rgba(167, 160, 154, 0.07)), color-stop(100%, rgba(125, 185, 232, 0.07)));
