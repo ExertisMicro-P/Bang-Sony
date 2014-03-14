@@ -40,7 +40,16 @@ ol, ul { list-style: none; }
 	p {
 		font-size:14px;
 	}
+	h1.normal {
+		font-weight:normal;
+	}	
 }
+
+.bold {
+	font-weight:bold;	
+}
+
+
 
 .block {
 	margin:20px 0;
@@ -48,4 +57,9 @@ ol, ul { list-style: none; }
 
 .divider{
 	border-bottom:4px solid #b8b5b7;	
+}
+
+.container--margin__reset {
+	margin-left:-15px;
+	margin-top:-15px;
 }

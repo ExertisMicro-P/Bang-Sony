@@ -99,3 +99,18 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3287bd', endColorstr='#0068ad',GradientType=0 ); /* IE6-9 */
 
 }
+
+
+.section--bottomtext__left {
+	bottom: 0px;
+	position: absolute;
+	margin-left: 55px;
+	margin-bottom: 50px;
+}
+
+.section--bottomtext__right {
+	bottom: 0px;
+	position: absolute;
+	margin-left: 550px;
+	margin-bottom: 50px;
+}
