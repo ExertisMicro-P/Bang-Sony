@@ -174,43 +174,9 @@ $(window).scroll(function () {
 
 function checkHREF(thisHREF) {
 
-	var response;
-
-	if (typeof (thisHREF) === "undefined" ) {
-		response = '';
-	}
-	else {
-
-		var aHREF = thisHREF;
-		var aHASH = '';
-		var arrHREF;
-
-		if (aHREF == '#') {																																						// link managed via assignment
-			response = aHREF;
-		}
-		else {
-			if (aHREF.indexOf('http') >= 0 && aHREF.indexOf('exertismicro-p') < 0) {										// external link - don't alter
-				response = aHREF;
-			}
-			else {
-				if (aHREF.indexOf('fnFile=') >= 0) {																											// repair relative file link (deals with iCom interference)
-					arrHREF = aHREF.split('fnFile=');
-					aHREF = arrHREF[1];
-					$(this).attr('href', aHREF);
-				}
-				var qsDelimiter = "?";
-				if (aHREF.indexOf('?') >= 0) { qsDelimiter = "&"; }																				// detemin appropriate QS delimiter
-				if (aHREF.indexOf('#') >= 0) { 																														// does the HREF contain a # value?
-					arrHREF = aHREF.split('#');
-					aHREF = arrHREF[0];
-					aHASH = '#' + arrHREF[1];
-				}
-				response = aHREF + qsDelimiter + 'mscssid=' + currentUser.mscssid + aHASH;								// maintain session & add the session ID, append any # value
-			}
-		}
-	}
-
-	return response;
+	if (typeof (thisHREF) != undefined) {   
+	       // function content              
+	}   
 }
 
 function checkSRC(thisSRC){
