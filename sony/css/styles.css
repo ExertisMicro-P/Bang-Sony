@@ -2,7 +2,7 @@
 
 Project Name: MicroP - Sony 
 Author: Farhan Farrukh 
-Date: 2014-03-14 
+Date: 2014-03-17 
 
 */
 
@@ -1450,7 +1450,7 @@ p.bxSlider--text {
     height: 120px;
     margin-top: -20px; }
   .drag .drag--screen {
-    height: 90px; }
+    height: 140px; }
   .drag .drag--processor {
     height: 70px; }
   .drag .drag--memory {
@@ -1464,11 +1464,11 @@ p.bxSlider--text {
   .drag .drag--features {
     height: 120px; }
   .drag .drag--weight {
-    height: 30px; }
+    height: 20px; }
   .drag .drag--dimensions {
     height: 30px; }
   .drag .drag--network {
-    height: 30px; }
+    height: 20px; }
 
 .drag-active {
   padding: 20px;
