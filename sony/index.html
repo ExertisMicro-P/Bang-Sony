@@ -2,6 +2,7 @@
 	<div class="container_25" >
 		<!-- content -->
 		<div id="ms-content" class="container--margin__reset"><!-- loaded via ajax --></div>
+		<a id="hidden-link" href="#" style="display:none;"><p>click me</p></a>
 		<div id="ms-loading"></div>
 
 	</div>
@@ -17,7 +18,7 @@ var contentWrapper = '.ms-wrapper';
 var ajaxWrapper = '#ms-content';
 
 var sandboxURL = '/sony/';
-var liveURL = '/../imagesPortal/UK/localisation/4/microsites/sony/';
+var liveURL = '/imagesPortal/UK/localisation/4/microsites/sony/';
 var prefixURL;
 
 prefixURL = (inSandbox) ? prefixURL = sandboxURL : prefixURL = liveURL;
@@ -27,6 +28,8 @@ function initProject() {
 	// multi-page microsite content management
 	head.load(prefixURL + "css/multi-page.css");
 	head.load(prefixURL + "css/styles.css");
+	head.load(prefixURL + "js/jquery.scrollTo.js");
+	head.load(prefixURL + "js/jquery.nav.js");
 	head.load(prefixURL + "js/multi-page.js", function() {
 		initContent();
 	});

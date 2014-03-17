@@ -10,11 +10,40 @@ var currentUser = whoami();
 function initContent() {
 
 	var landingPage = querystring_lookup('p');
-	landingPage = ((typeof (landingPage) != "undefined" && landingPage !== null) ? landingPage : "home");
+	landingPage = ((typeof (landingPage) !== "undefined" && landingPage !== null) ? landingPage : "home");
+
 	ajaxMSPage(setMSPage(landingPage), ajaxWrapper);		// check QS & load content
+
+	// prefix image paths outside ajax area
+	$(contentWrapper).find('img').each(function () {
+		var thisSRC = checkSRC($(this).attr('src'));
+		$(this).attr('src', thisSRC);
+	});
+
+	// repair anchor tags outside ajax area
+	$(contentWrapper + ' a').each(function () {
+		var thisHREF = checkHREF($(this).attr('href'));
+		$(this).attr("href", thisHREF);																													// update path
+		if ($(this).hasClass('act')) {																													// add click through event
+			$(this).on('click', function () {
+				createGAEvent(projectName, 'Click-Though', $(this).attr("href"), inSandbox);				// analytics clickthrough event
+			});
+		}
+	});
 
 	// analytics event
 	createGAEvent(projectName, "Landing-Page", landingPage, inSandbox);
+
+	// smooth scroll
+	$('#hidden-link').onePageNav({
+		currentClass: 'current',
+		changeHash: false,
+		scrollSpeed: 750,
+		scrollOffset: 30,
+		scrollThreshold: 0.5,
+		filter: '',
+		easing: 'swing'
+	});
 }
 
 //------------------------------------
@@ -23,18 +52,29 @@ function initContent() {
 // look in querysting first to jump to specific content, defaults to home.html
 //
 function setMSPage(requestedPage) {
-	var targetPage = ((typeof (requestedPage) != "undefined" && requestedPage !== null) ? requestedPage : "home");
-	var contentURL = prefixURL + targetPage + '.html';
+
+	var targetPage = ((typeof (requestedPage) !== "undefined" && requestedPage !== null) ? requestedPage : "home");
+
+	var aHREF = targetPage;
+	var aHASH = '';
+	var arrHREF;
+	if (aHREF.indexOf('#') >= 0) { 																								// does the HREF contain a # value?
+		arrHREF = aHREF.split('#');
+		aHREF = arrHREF[0];
+		aHASH = '#' + arrHREF[1];
+	}
+	var contentURL = prefixURL + aHREF + '.html' + aHASH;	
 
 	// analytics event
 	createGAEvent(projectName, "Load-Page", targetPage, inSandbox);
 
-	return contentURL
+	return contentURL;
 }
 
 // loads the content on an html page to the target div
 //
 function ajaxMSPage(ajaxURL, targetDiv) {
+
 	$.ajax({
 		global: true,
 		cache: false,																																// Change for live
@@ -57,13 +97,26 @@ function ajaxMSPage(ajaxURL, targetDiv) {
 				$(this).attr("href", thisHREF);																													// update path
 				if ($(this).hasClass('act')) {																													// add click through event
 					$(this).on('click', function(){
-						createGAEvent(projectName, 'Click-Though', $(this).attr("href"), inSandbox);				// analytics clickthrough event
+						createGAEvent(projectName, 'Click-Through', $(this).attr("href"), inSandbox);				// analytics clickthrough event
 					});
 				}
 
 			});
 
 			$('#ms-loading').fadeOut();
+
+			var aHREF = ajaxURL;
+			var aHASH = '';
+			var arrHREF;
+			if (aHREF.indexOf('#') >= 0) { 																								// does the HREF contain a # value?
+				arrHREF = aHREF.split('#');
+				aHREF = arrHREF[0];
+				aHASH = '#' + arrHREF[1];
+
+				// trigger hidden link
+				$('#hidden-link').attr('href', aHASH);
+				$('#hidden-link p').trigger('click');
+			}
 		}
 	});
 }
@@ -71,14 +124,10 @@ function ajaxMSPage(ajaxURL, targetDiv) {
 // listener for navigation, if the link has the appropriate data value the ajax load is called
 //
 $(contentWrapper).on('click', 'a', function (e) {
-	if ($(this).data('target-content') != undefined) {
 
-		if ($(this).hasClass = "external") {
-			ajaxMSPage(setMSPage($(this).data('target-content')), '#ms-content');
-		}
-		else {
-			ajaxMSPage(setMSPage($(this).data('target-content')), '#ms-content');
-		}
+	if (typeof ($(this).data('target-content')) !== "undefined") {
+
+		ajaxMSPage(setMSPage($(this).data('target-content')), '#ms-content');
 
 		// flag active menu link
 		if ($(this).parents('div:first').attr('id') == 'ms-nav') {
@@ -86,6 +135,7 @@ $(contentWrapper).on('click', 'a', function (e) {
 			$(this).addClass('active');
 		}
 	}
+
 	else if ($(this).attr('href') == "#") {
 		e.preventDefault();
 	}
@@ -114,16 +164,53 @@ $(window).scroll(function () {
 	}
 });
 
+
+
 //------------------------------------
 
 // utils
 
 //------------------------------------
 
-function checkHREF(thisHREF){
-	if (typeof (thisHREF) != undefined) {   
-	       // function content              
-	}         
+function checkHREF(thisHREF) {
+
+	var response;
+
+	if (typeof (thisHREF) === "undefined" ) {
+		response = '';
+	}
+	else {
+
+		var aHREF = thisHREF;
+		var aHASH = '';
+		var arrHREF;
+
+		if (aHREF == '#') {																																						// link managed via assignment
+			response = aHREF;
+		}
+		else {
+			if (aHREF.indexOf('http') >= 0 && aHREF.indexOf('exertismicro-p') < 0) {										// external link - don't alter
+				response = aHREF;
+			}
+			else {
+				if (aHREF.indexOf('fnFile=') >= 0) {																											// repair relative file link (deals with iCom interference)
+					arrHREF = aHREF.split('fnFile=');
+					aHREF = arrHREF[1];
+					$(this).attr('href', aHREF);
+				}
+				var qsDelimiter = "?";
+				if (aHREF.indexOf('?') >= 0) { qsDelimiter = "&"; }																				// detemin appropriate QS delimiter
+				if (aHREF.indexOf('#') >= 0) { 																														// does the HREF contain a # value?
+					arrHREF = aHREF.split('#');
+					aHREF = arrHREF[0];
+					aHASH = '#' + arrHREF[1];
+				}
+				response = aHREF + qsDelimiter + 'mscssid=' + currentUser.mscssid + aHASH;								// maintain session & add the session ID, append any # value
+			}
+		}
+	}
+
+	return response;
 }
 
 function checkSRC(thisSRC){
