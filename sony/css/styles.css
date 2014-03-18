@@ -2,7 +2,7 @@
 
 Project Name: MicroP - Sony 
 Author: Farhan Farrukh 
-Date: 2014-03-17 
+Date: 2014-03-18 
 
 */
 
@@ -503,6 +503,10 @@ body {
 .clearfix {
   zoom: 1; }
 
+body {
+  min-width: 990px;
+  height: 100%; }
+
 h1, h2, h3, h4, p, ul, li {
   margin: 0;
   padding: 0;
@@ -565,6 +569,9 @@ ol, ul {
 .container--margin__reset {
   margin-left: -15px;
   margin-top: -15px; }
+
+#sortable {
+  float: none; }
 
 .blue {
   color: #216ca8 !important; }
