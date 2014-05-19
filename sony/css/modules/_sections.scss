@@ -114,3 +114,23 @@
 	margin-left: 550px;
 	margin-bottom: 50px;
 }
+
+ul.products-list {
+ 	list-style: none;
+    //padding-left:30px;
+    margin:0; 
+	li { 
+    	.bullet--margin {
+			padding-left:20px !important; 
+			display: block;
+			margin-top: -15px;
+			font-size: 14px;
+		}
+	}
+
+	li:before {
+    	content: "\2022";
+    	//padding-right:10px;
+    	color: #ffffff;
+	}
+}
