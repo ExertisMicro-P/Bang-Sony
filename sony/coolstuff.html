@@ -8,6 +8,7 @@
 				<li><a class="accessory" data-target-content="accessories" href="#">ACCESSORIES</a></li>
 				<li><a class="comparator" data-target-content="compare" href="#">COMPARE PRODUCTS</a></li>
 				<li><a class="promotion" data-target-content="promotions" href="#">PROMOTIONS</a></li>
+				<li><a class="news" data-target-content="news" href="#">NEWS</a></li>
 				<li><a class="brochure" data-target-content="brochures" href="#">BROCHURES</a></li>
 				<li><a class="coolstuff r-rc" data-target-content="coolstuff" href="#">COOL STUFF</a></li>
 			</ul>
@@ -15,8 +16,8 @@
 			<img  style="margin-left:380px; margin-top:20px;"src="images/xperia.png" alt=""/>
 			<p style="margin-left:300px;  margin-bottom:20px; font-size:24px;">The <span class="bold">best</span> of Sony for the <span class="bold">best</span> of you</p>
 		</div>
-		<div id="transfer" class="grid_25 products products--coolstuff">
-			<div class="grid_12 prefix_1">
+		<div id="transfer" class="grid_25 products products--coolstuff" style="padding-bottom:60px;">
+			<div class="grid_12 prefix_1" style="margin-top:35px;">
 				<iframe width="440" height="315" src="//www.youtube.com/embed/FtsxQrw7Emo?rel=0" frameborder="0" allowfullscreen></iframe>
 				<!-- <img class="block" src="images/transfer.png" alt=""/> -->
 			</div>
@@ -25,6 +26,7 @@
 				<p>With Xperia<span class="sup">TM</span> Transfer, your old phone can no longer hold you hostage. Whether you have an iPhone or any other smartphone, our migration wizard means you can seamlessly import what you need without hassle.</p><br></br>
 				<p>Whether on a PC or Mac, in just three simple steps you can transfer contacts, photos, videos, messages, music and more to your new Xperia<span class="sup">TM</span> smartphone.</p><br></br>
 				<p style="font-size:10px;">Xperia<span class="sup">TM</span> is a trademark or registered trademark of Sony Mobile Communications AB. iPhone is a trademark or registered trademark of Apple Inc.</p>
+				<a id="transferGuide" href="#"><span class="sonyBtn">DOWNLOAD GUIDE</span></a>
 	  		</div>
 		</div>
 
@@ -36,13 +38,13 @@
 				<p style="font-size:10px;">Xperia<span class="sup">TM</span> is a trademark or registered trademark of Sony Mobile Communications AB.</p>
 	  		</div>
 	  		<div class="grid_12">
-				 <img class="block push_1" src="images/care.png" alt=""/>
+				 <img class="block push_1" src="images/coolstuff/care.png" alt=""/>
 			</div>
 		</div>
 
 		<div class="grid_25 products products--coolstuff">
 			<div class="grid_12 prefix_1">
-				 <img class="block push_1" src="images/lounge.png" alt=""/>
+				 <img class="block push_1" src="images/coolstuff/lounge.png" alt=""/>
 			</div>
 			<div class="grid_10">		
 	      		<img class="block" src="images/titles/lounge.png" alt=""/>
@@ -60,7 +62,7 @@
 				<p style="font-size:10px;">*Sony Entertainment Network services are not available, or may not be supported, in every country and language. Sony Entertainment Network and their logos are trademarks or registered trademarks of Sony Corporation.</br>**PlayStation<span class="sup">&reg</span> is a trademark or registered trademark of Sony Computer Entertainment Inc.</p>
 	  		</div>
 	  		<div class="grid_12 push_1">
-				 <img class="block push_3" src="images/entertainment.png" alt=""/>
+				 <img class="block push_3" src="images/coolstuff/entertainment.png" alt=""/>
 			</div>
 		</div>
 	</div>
@@ -69,7 +71,8 @@
 <script type="text/javascript">
 
 	function initPage() {
-
+		var Path = prefixURL + "downloads/XperiaTransferGuide.pdf";
+		document.getElementById("transferGuide").setAttribute("href", Path);
 	}
 
 </script>
