@@ -26,7 +26,7 @@ function initContent() {
 		$(this).attr("href", thisHREF);																													// update path
 		if ($(this).hasClass('act')) {																													// add click through event
 			$(this).on('click', function () {
-				createGAEvent(projectName, 'Click-Though', $(this).attr("href"), inSandbox);				// analytics clickthrough event
+				createGAEvent(projectName, 'Click-Through', $(this).attr("href"), inSandbox);				// analytics clickthrough event
 			});
 		}
 	});
@@ -174,16 +174,52 @@ $(window).scroll(function () {
 
 function checkHREF(thisHREF) {
 
-	if (typeof (thisHREF) != undefined) {   
-	       // function content              
-	}   
+	var response;
+
+	if (typeof thisHREF === "undefined" ) {
+		response = '';
+	}
+	else {
+
+		var aHREF = thisHREF;
+		var cleanHREF = ie7fix(thisHREF,'href');
+		var aHASH = '';
+		var arrHREF;
+
+		if (cleanHREF.indexOf('#') == 0) {																																				// link managed via assignment
+			response = aHREF;
+		}
+		else {
+			if (cleanHREF.indexOf('http') >= 0 && cleanHREF.indexOf('exertismicro-p') < 0) {						// external link - don't alter
+				response = aHREF;
+			}
+			else {
+				if (aHREF.indexOf('fnFile=') >= 0) {																											// repair relative file link (deals with iCom interference)
+					arrHREF = aHREF.split('fnFile=');
+					aHREF = arrHREF[1];
+					$(this).attr('href', aHREF);
+				}
+				var qsDelimiter = "?";
+				if (aHREF.indexOf('?') >= 0) { qsDelimiter = "&"; }																				// detemin appropriate QS delimiter
+				if (aHREF.indexOf('#') >= 0) { 																														// does the HREF contain a # value?
+					arrHREF = aHREF.split('#');
+					aHREF = arrHREF[0];
+					aHASH = '#' + arrHREF[1];
+				}
+				response = aHREF + qsDelimiter + 'mscssid=' + currentUser.mscssid + aHASH;								// maintain session & add the session ID, append any # value
+			}
+		}
+	}
+
+	return response;
 }
 
 function checkSRC(thisSRC){
 
-	var imgSRC = thisSRC;
+	var imgSRC = thisSRC;	
+	imgSRC = ie7fix(imgSRC,'src');																																			// deals with ie7 interference
 
-	if (inSandbox != true) {																																			// prefix image paths -  (deals with iCom interference)
+	if (inSandbox != true) {																																			// prefix image paths -  deals with iCom interference
 		imgSRC = replaceAll(imgSRC, '/ImagesPortal/UK/localisation/4/', '');
 		imgSRC = prefixURL + imgSRC;
 	}
@@ -195,5 +231,34 @@ function checkSRC(thisSRC){
 	return response;
 }
 
+
+function ie7fix(addr, domtype) {
+	
+	var cleanAddr = addr;
+	var cleanHash = '';
+	var arrAddr;
+	
+	switch (domtype){
+		case 'src':		
+			if (cleanAddr.indexOf(document.domain) >= 0) { 																									// fix ie7 bug - remove domain from src value
+				cleanAddr = cleanAddr.replace('http://' + document.domain + '/', '');
+				cleanAddr = cleanAddr.replace('https://' + document.domain + '/', '');
+			}
+			break;
+		
+		case 'href':				
+			var url = document.URL;
+			var arrURL = url.split('#');			
+			cleanAddr = cleanAddr.replace(arrURL[0], '');
+			if (cleanAddr == '##') {
+				cleanAddr = cleanAddr.replace('##', '#');
+			}
+			break;
+	}
+	
+	return cleanAddr;
+}
+
+	
 //------------------------------------
-//# sourceURL=multipage.js
+//# sourceURL=sony.js
