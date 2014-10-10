@@ -564,6 +564,16 @@ ol, ul {
 #sortable {
   float: none; }
 
+.visuallyhidden, .available-colours .available-colours__swatches li span {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
 .blue {
   color: #216ca8 !important; }
 
@@ -1451,6 +1461,33 @@ ul.products-list {
   float: left;
   background-color: white;
   opacity: 0.3; }
+
+.available-colours {
+  float: none; }
+  .available-colours .available-colours__swatches {
+    margin: 20px 0 0 0; }
+  .available-colours .available-colours__swatches li {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-right: 4px;
+    border-radius: 50%; }
+  .available-colours .black {
+    background-color: black; }
+  .available-colours .white {
+    background-color: white; }
+  .available-colours .yellow {
+    background-color: #f0e76f; }
+  .available-colours .pink {
+    background-color: #f6b8c9; }
+  .available-colours .purple {
+    background-color: #bb79a7; }
+  .available-colours .turquoise {
+    background-color: #58c6aa; }
+  .available-colours .brown {
+    background-color: #af7767; }
+  .available-colours .black-and-gray {
+    background: url("/sony/images/colors/sony-black-and-gray-swatch.png") no-repeat; }
 
 #mp-header {
   margin-bottom: 15px; }

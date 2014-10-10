@@ -1,0 +1,31 @@
+.available-colours {
+  float: none;
+
+  .available-colours__swatches {
+    margin: 20px 0 0 0;
+  }
+
+  .available-colours__swatches li {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-right: 4px;
+    border-radius: 50%;
+
+    span {
+      @extend .visuallyhidden;
+    }
+  }
+
+  .black  { background-color: #000 }
+  .white  { background-color: #fff }
+  .yellow { background-color: #f0e76f }
+  .pink { background-color: #f6b8c9; }
+  .purple { background-color: #bb79a7; }
+  .turquoise { background-color: #58c6aa; }
+  .brown { background-color: #af7767; }
+  .black-and-gray { 
+    background: url("/sony/images/colors/sony-black-and-gray-swatch.png") no-repeat;
+  }
+
+}
