@@ -49,6 +49,24 @@ Running or `grunt` or `grunt watch` will listen for changes and do partial recom
 * `grunt build` - compile the `sony` microsite
 * `grunt rebuild` - wipe the `sony` microsite before building (updates the `micro-site` framework).
 
+## Updating the multi-page framework
+
+The [multi-page](multi-page) framework should be kept up to date with the version in the [Bang-Conect](https://github.com/ExertisMicro-P/Bang-Conect) repository.
+
+You can update the framework by pulling the latest version from [Bang-Conect](https://github.com/ExertisMicro-P/Bang-Conect) and copying the changes into the repo.
+
+```sh
+# make sure to clone the repo outside of this one
+git clone git@github.com:ExertisMicro-P/Bang-Conect.git
+
+rsync -r --delete Bang-Conect/multi-page Bang-Sony/
+cd Bang-Sony
+grunt rebuild
+grunt server
+```
+
+You'll then need to test everything is still working as expected before committing the changes. It's best to commit a library update on it's own without additional changes, when possible.
+
 ## Deploying to test
 
 Test site: [http://sony.microp.bang-on.net/?project=sony](http://sony.microp.bang-on.net/?project=sony)
