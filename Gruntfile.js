@@ -147,7 +147,7 @@ module.exports = function(grunt) {
       }
     },
 
-    // image optimization
+    // losslessly compress all images in /src/images
     imagemin: {
       dist: {
         options: {
@@ -157,9 +157,9 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: '<%= buildDir %>/images/',
+          cwd: 'src/images/',
           src: ['**/*.{png,jpg,gif}'],
-          dest: '<%= buildDir %>/images/'
+          dest: 'src/images/'
         }]
       }
     },
@@ -177,7 +177,7 @@ module.exports = function(grunt) {
       }
     },
 
-    // for wiping and starting again the build again
+    // for wiping and starting the build from fresh
     clean: {
       build: '<%= buildDir %>'
     },
