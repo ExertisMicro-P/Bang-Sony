@@ -1,5 +1,26 @@
+$swatch_diameter: 18px;
+
+@mixin swatch($pri_colour, $secondary_colour: '') {
+  background-color: $pri_colour;
+
+  @if $secondary_colour != '' {
+    &:after {
+      position: relative;
+      left: $swatch_diameter / 2;
+      display: block;
+      content: '';
+      height: $swatch_diameter;
+      width: $swatch_diameter / 2;
+      border-radius: 0 ($swatch_diameter / 2) ($swatch_diameter / 2) 0;
+      background-color: $secondary_colour;
+      transform-origin: 0 50%;
+      transform: rotate(45deg);
+    }
+  }
+}
+
 .available-colours {
-  float: none;
+  float: none; // for some reason all <divs> are floated? this makes life difficult.
 
   .available-colours__swatches {
     margin: 20px 0 0 0;
@@ -7,25 +28,24 @@
 
   .available-colours__swatches li {
     display: inline-block;
-    height: 18px;
-    width: 18px;
+    height: $swatch_diameter;
+    width: $swatch_diameter;
     margin-right: 4px;
     border-radius: 50%;
 
     span {
+      // hide the label from display, but not screenreaders
       @extend .visuallyhidden;
     }
   }
 
-  .black  { background-color: #000 }
-  .white  { background-color: #fff }
-  .yellow { background-color: #f0e76f }
-  .pink { background-color: #f6b8c9; }
-  .purple { background-color: #bb79a7; }
-  .turquoise { background-color: #58c6aa; }
-  .brown { background-color: #af7767; }
-  .black-and-gray { 
-    background: url("/sony/images/colors/sony-black-and-gray-swatch.png") no-repeat;
-  }
-
+  .black          { @include swatch(#000); }
+  .white          { @include swatch(#fff); }
+  .yellow         { @include swatch(#f0e76f); }
+  .pink           { @include swatch(#fab5c4); }
+  .purple         { @include swatch(#5b408d); }
+  .turquoise      { @include swatch(#42c1a8); }
+  .brown          { @include swatch(#af7767); }
+  .orange         { @include swatch(#ff9c56); }
+  .black-and-grey { @include swatch(#000, #777); }
 }
