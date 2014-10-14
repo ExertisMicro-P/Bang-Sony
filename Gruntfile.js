@@ -38,7 +38,7 @@ module.exports = function(grunt) {
       },
       assets: {
         files: ['src/images/**/*', 'src/fonts/**/*', 'src/downloads/**/*'],
-        tasks: ['rsync']
+        tasks: ['rsync:images', 'rsync:fonts', 'rsync:downloads']
       }
     },
 
