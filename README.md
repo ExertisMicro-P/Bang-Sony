@@ -5,10 +5,9 @@ This project is based on the [Bang-Conect](https://github.com/ExertisMicro-P/Ban
 Bang's test site: [http://sony.microp.bang-on.net/?project=sony](http://sony.microp.bang-on.net/?project=sony)
 
 ## TODO
-* Get grunt to take care of deployments to test site (need to do better than a direct rsync, could leverage `ec2 deploy` script).
-* Make better use of [bake](https://github.com/MathiasPaumgarten/grunt-bake) templating to DRY up the markup.
 * Move inline styling into SCSS modules.
 * Move styles from [_shame.scss](./src/scss/_shame.scss) to abstracted modules.
+* Make better use of [bake](https://github.com/MathiasPaumgarten/grunt-bake) templating to DRY up the markup.
 
 ## Getting started
 
@@ -83,5 +82,17 @@ Test site: [http://sony.microp.bang-on.net/?project=sony](http://sony.microp.ban
 
 1. Run `grunt build` (or `grunt rebuild`)
 2. Commit and push changes
-3. SSH to the test server
-4. Run the `/data/microp/sony-microsite-test/deploy.sh` script
+3. Run the deploy script:
+
+```sh
+# option 1 - ssh to the machine and run locally
+ssh vapour.ec2
+cd /data/microp/sony-microsite-test
+./deploy.sh
+
+# option 2 - run remotely over ssh
+ssh -t vapour.ec2 'cd /data/microp/sony-microsite-test/ && ./deploy.sh'
+
+# option 3 - use the ec2 script
+ec2 deploy site microp/sony-microsite-test
+```
