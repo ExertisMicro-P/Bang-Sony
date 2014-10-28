@@ -1,0 +1,18 @@
+<div class="grid_25 product product--accessory">
+  <div class="product__details">
+    <h1 class="product__title">{{accessory.title}}</h1>
+    <p class="product__desc">{{accessory.description}}</p>
+    <div class="available-colours">
+      <h3>Available colours</h3>
+      <ul class="available-colours__swatches">
+        <!--(bake-start _foreach="colour:accessory.colours")-->
+          <li class="{{colour.class}}"><span>{{colour.label}}</span></li>
+        <!--(bake-end)-->
+      </ul>
+    </div>
+    <a href="{{accessory.link}}"><span class="sony-button">Find out more</span></a>
+  </div>
+  <div class="product__image">
+    <img src="{{accessory.image}}" alt="Image of {{accessory.title}}"/>
+  </div>
+</div>

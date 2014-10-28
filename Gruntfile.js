@@ -33,7 +33,7 @@ module.exports = function(grunt) {
         tasks: ['uglify']
       },
       html: {
-        files: ['src/html/**/*.html'],
+        files: ['src/html/**/*.html', 'src/html/**/*.json'],
         tasks: ['bake']
       },
       assets: {
@@ -47,7 +47,7 @@ module.exports = function(grunt) {
       build: {
         options: {
           bundleExec: true,
-          sourcemap: 'file'
+          sourcemap: 'inline'
         },
         files: {
           '<%= buildDir %>/css/microsite.css': 'src/scss/styles.scss',
@@ -110,6 +110,9 @@ module.exports = function(grunt) {
     // compile html from includes
     bake: {
       build: {
+        options: {
+          content: 'src/html/content.json'
+        },
         files: [{
           expand: true,
           cwd: 'src/html',

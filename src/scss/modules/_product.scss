@@ -1,0 +1,48 @@
+// raw product - similar module to OOCSS' media object
+.product {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #ffffff;
+  border-bottom: 1px solid white;
+
+  &:nth-child(odd) > .product__image,
+  &:nth-child(odd) > .product__details {
+    float: right;
+    margin-right: 50px;
+    margin-left: 0;
+  }
+}
+
+.product__details {
+  float: left;
+  width: 460px;
+  margin-left: 50px;
+
+  // this shouldn't really be nested, but neccessary to override
+  // `.container_25 h1` selector
+  .product__title {
+    margin-top: 0;
+    font-weight: normal;
+  }
+
+  // this shouldn't really be nested, but .product__title is, so this is consistent
+  .product__description {
+    line-height: 1.42em; // 20px / 14px
+  }
+}
+
+.product__image {
+  float: left;
+  width: 380px;
+  margin-left: 50px;
+}
+
+.product--accessory {
+  background: #d68343; // fallback for older browsers
+  background: linear-gradient(to bottom, #d68343 0%, #d68343 85%, #b56541 100%);
+}
+
+.product--coolstuff {
+  background: #3287bd; // fallback for older browsers
+  background: linear-gradient(to bottom, #3287bd 0%, #3287bd 90%, #0068ad 100%);
+}
