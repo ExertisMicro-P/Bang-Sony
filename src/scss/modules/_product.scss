@@ -6,6 +6,7 @@
   color: #fff;
   border-bottom: 1px solid white;
 
+  // alternate alignment (left/right flip)
   &:nth-child(even) > .product__image,
   &:nth-child(even) > .product__details {
     float: right;
@@ -69,12 +70,10 @@
   margin-left: 50px;
 }
 
-.product--red .product__heading {
-  color: #ae1825;
-}
-.product--green .product__heading {
-  color: #588436;
-}
+.product--red    .product__heading { color: #ae1825; }
+.product--orange .product__heading { color: #c8692f; }
+.product--green  .product__heading { color: #588436; }
+.product--blue   .product__heading { color: #216ca8; }
 
 .product--tablet {
   .product__details {
