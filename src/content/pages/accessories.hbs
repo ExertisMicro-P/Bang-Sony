@@ -2,19 +2,30 @@
 
   {{> header}}
 
+  <div class="main grid_25">
+
   {{#each accessories.products}}
     <div class="grid_25 product product--accessory">
       <div class="product__details">
-        <h1 class="product__title">{{title}}</h1>
-        <p class="product__desc">{{description}}</p>
-        {{> available-colours this}}
-        <a href="{{link}}"><span class="sony-button">Find out more</span></a>
+        <h2 class="product__title">{{{title}}}</h2>
+        <p class="product__desc">{{{description}}}</p>
+        <div class="available-colours">
+          <h3>Available colours</h3>
+          <ul class="available-colours__swatches">
+            {{#each colours}}
+              <li class="{{slugify .}}"><span>{{.}}</span></li>
+            {{/each}}
+          </ul>
+        </div>
+        <a class="sony-button" href="{{link}}">Find out more</a>
       </div>
       <div class="product__image">
-        <img src="{{image}}" alt="Image of {{title}}"/>
+        <img src="{{image}}" alt="Image of {{{title}}}"/>
       </div>
     </div>
   {{/each}}
+
+  </div>
 
 </div>
 

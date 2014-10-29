@@ -1,12 +1,13 @@
 // raw product - similar module to OOCSS' media object
 .product {
+  margin: 0;
   padding-top: 40px;
   padding-bottom: 40px;
-  color: #ffffff;
+  color: #fff;
   border-bottom: 1px solid white;
 
-  &:nth-child(odd) > .product__image,
-  &:nth-child(odd) > .product__details {
+  &:nth-child(even) > .product__image,
+  &:nth-child(even) > .product__details {
     float: right;
     margin-right: 50px;
     margin-left: 0;
@@ -22,6 +23,7 @@
   // `.container_25 h1` selector
   .product__title {
     margin-top: 0;
+    font-size: 34px;
     font-weight: normal;
   }
 
@@ -29,12 +31,58 @@
   .product__description {
     line-height: 1.42em; // 20px / 14px
   }
+
+  // this shouldn't really be nested, but neccessary to override
+  // `.container_25 h3` selector
+  .product__tagline {
+    color: #fff;
+    font-size: 14px;
+  }
+
+  // this shouldn't really be nested, but neccessary to override
+  // `.container_25 h4` selector
+  .product__heading {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+}
+
+.product__spec {
+  @extend .clearfix;
+}
+
+.product__spec-col {
+  width: 45%;
+  float: left;
+  margin-right: 5%;
+}
+
+.product__spec-label {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .product__image {
   float: left;
   width: 380px;
   margin-left: 50px;
+}
+
+.product--red .product__heading {
+  color: #ae1825;
+}
+.product--green .product__heading {
+  color: #588436;
+}
+
+.product--tablet {
+  .product__details {
+    width: 540px;
+  }
+  .product__image {
+    width: 300px;
+  }
 }
 
 .product--accessory {
@@ -44,5 +92,5 @@
 
 .product--coolstuff {
   background: #3287bd; // fallback for older browsers
-  background: linear-gradient(to bottom, #3287bd 0%, #3287bd 90%, #0068ad 100%);
+  background: linear-gradient(to bottom, #3287bd 0%, #3287bd 85%, #0068ad 100%);
 }
