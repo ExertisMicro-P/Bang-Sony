@@ -1,0 +1,35 @@
+.header {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background: #000000; // fallback for older browsers
+  background: linear-gradient(to right, #000000 0%, #8092ba 100%);
+  border-bottom: 4px solid #b8b5b7;
+
+  // shouldn't be nested by neccessary to override grid heading styles
+  .header__tagline {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+.header__sony-logo {
+  position: absolute;
+  right: 20px;
+  top: 74px;
+}
+
+.header__xperia-logo {
+  margin: 20px 0 0 0;
+}
+
+.accessories .header {
+  background: #c8692f;
+}
+
+.coolstuffs .header {
+  background: #216ca8;
+}

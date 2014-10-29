@@ -1,0 +1,270 @@
+{
+  "products": [
+    {
+      "title": {
+        "text": "Z3",
+        "image": "/images/titles/z3.png"
+      },
+      "tagline": "Don't settle for good. Demand great",
+      "description": "It's the details that make the difference between a good smartphone and a great one. With the highest waterproof rating*, our latest camera technology and up to 2 days battery life**, the beautifully crafted Xperia&trade; Z3 was built so you can finally do everything you want.",
+      "specification": {
+        "Weight": "152 grams",
+        "Dimensions": "146mm x 72mm x 7.3mm",
+        "Camera": "20.7MP camera & 4K video",
+        "Gaming": "PS4 Remote Play***",
+        "Display": "5.2 inch 1080p Full HD TRILUMINOS IPS Display with X-Reality&trade;",
+        "Durability": "Highest waterproof rating IP65/68*",
+        "Battery": "Up to 2 days battery life** and Battery STAMINA Mode"
+      },
+      "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?nmOrderBy=1&ttKeyword=Xperia%20Z3&idManufacturer=2809&flPackageOnly=0&idCategory=8057",
+      "video": "https://www.youtube.com/watch?v=HK71cHoswgo&feature=em-upload_owner",
+      "image": "/images/smartphones/z3.png",
+      "colour": "blue"
+    },
+    {
+      "title": {
+        "text": "Z3 Compact",
+        "image": "/images/titles/z3compact.png"
+      },
+      "tagline": "Demand great in a compact smartphone",
+      "description": "Don't settle for good. Demand great. Pushing the boundaries of quality and innovation, the Xperia Z3 Compact brings you uncompromised high-end performance in a beautifully compact waterproof* design. Combining all the details that make our smartphones great, including our latest camera technology and up to 2 days battery**, the Xperia&trade; Z3 Compact feels like it belongs in your hand.",
+      "specification": {
+        "Weight": "129 grams",
+        "Dimensions": "127.3mm x 64.9mm x 8.6mm",
+        "Camera": "20.7MP camera & 4K video",
+        "Gaming": "PS4 Remote Play***",
+        "Display": "4.6 inch 720p TRILUMINOS&trade; Display for mobile with X-Reality&trade;",
+        "Durability": "Highest waterproof rating IP65/68*",
+        "Battery": "Up to 2 days battery life** and Battery STAMINA Mode"
+      },
+      "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?nmOrderBy=1&ttKeyword=Xperia%20Z3%20Compact&idManufacturer=2809&flPackageOnly=0&idCategory=8057",
+      "video": "https://www.youtube.com/watch?v=VOKcBxYOqpM&feature=em-upload_owner",
+      "image": "/images/smartphones/z3compact.png",
+      "colour": "blue"
+    },
+    {
+      "title": {
+        "text": "E3",
+        "image": "/images/titles/e3.png"
+      },
+      "tagline": "Good is expected, great makes you smile",
+      "description": "Xperia&trade; E3 is the Sony smartphone that's designed to be fun – and stay that way. Full of unexpected gems to choose from like Xperia camera apps and movies, it's fun to use and just as fun to show-off. With Xperia&trade; E3 we've handpicked the Sony experiences we know you'll love, and wrapped them up in our best technology.",
+      "specification": {
+        "Weight": "144 grams",
+        "Dimensions": "137mm x 69mm x 8.5mm",
+        "Camera": "5MP camera with HD video recording",
+        "Display": "4.5\" IPS Display",
+        "Battery": "2330 mAh and Battery STAMINA Mode"
+      },
+      "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?nmOrderBy=1&ttKeyword=Xperia%20E3&idManufacturer=2809&flPackageOnly=0&idCategory=8057",
+      "video": "https://www.youtube.com/watch?v=OlOfxTCRbi0&feature=em-upload_owner",
+      "image": "/images/smartphones/e3.png",
+      "colour": "red"
+    },
+    {
+      "title": {
+        "text": "M2",
+        "image": "/images/titles/m2.png"
+      },
+      "tagline": "The beauty of precision",
+      "description": "Xperia&trade; M2 comes with an 8 MP camera that captures pictures of exceptional quality. Featuring our groundbreaking Exmor RS&trade; for mobile image sensor and Auto scene recognition, this fast smartphone gives you the best photos anywhere, at any time. When you want to make more of your photos, try Xperia M2's innovative camera apps. And with Social live, you can broadcast what's going on live on Facebook.",
+      "specification": {
+        "Weight": "148 grams",
+        "Dimensions": "139.6mm x 71.1mm x 8.6mm",
+        "Camera": "8 megapixel with 4 x digital zoom",
+        "Display": "4.8 inch",
+        "Durability": "Scratch resistant",
+        "Battery": "Talk time up to 12 hours 11 minutes"
+      },
+      "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?mscssid=&nmOrderBy=1&ttKeyword=m2&idCategory=8057&lbCategory=ANDROID%20OS%20MOBILE%20PHONE",
+      "video": "http://www.youtube.com/watch?v=s_x6JZHMswY?rel=0&feature=youtu.be",
+      "image": "/images/smartphones/m2.png",
+      "colour": "red"
+    },
+    {
+      "title": {
+        "text": "Z2",
+        "image": "/images/titles/z2.png"
+      },
+      "tagline": "The world's best camera and camcorder in a waterproof* smartphone",
+      "description": "Get creative with the world's best camera and camcorder technologies in a waterproof* smartphone. Use your camera for more than just photos and videos with Xperia&trade; Camera apps that bring new, social and fun ways to create and share. With Sony's audio technologies, you can be sure to experience the best sound, always, with Full HD TRILUMINOS&trade; display and Live Colour LED, stereo speakers, digital noise cancelling support and more.",
+      "specification": {
+        "Weight": "163 grams",
+        "Dimensions": "146.8mm x 73.3mm x 8.2mm",
+        "Camera": "20.7 megapixel including 4K video capture and full HD video",
+        "Display": "5.2 inch Full HD TRILUMINOS&trade; display and Live Colour LED",
+        "Durability": "Waterproof (IP55 and IP58) and dust-resistant (IP55)",
+        "Battery": "Talk time: up to 19 hrs"
+      },
+      "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?mscssid=%7BC9D5E115-C48B-4F41-A57B-4FB86C5C50CF%7D&nmOrderBy=1&ttKeyword=Z2&flPackageOnly=0&idCategory=8057&lbCategory=ANDROID%20OS%20MOBILE%20PHONE",
+      "video": "http://www.youtube.com/watch?v=ADWsyX8PlxA?rel=0&feature=youtu.be",
+      "image": "/images/smartphones/z2.png",
+      "colour": "blue"
+    },
+    {
+      "title": {
+        "text": "Z1 Compact",
+        "image": "/images/titles/z1-compact.png"
+      },
+      "tagline": "Outstanding performance in the size for you",
+      "description": "Xperia&trade; Z1 Compact is everything you expect in a premium smartphone. Capture stunning photos and videos with technology as good as Sony's compact digital camera. It's waterproof* and dust-resistant and comes in a range of lovely colours ... and all beautifully crafted to fit perfectly in the palm of your hand.",
+      "specification": {
+        "Weight": "137 grams",
+        "Dimensions": "127mm x 64.9mm x 9.5mm",
+        "Camera": "20.7 megapixel with Sony Exmor RS for mobile image sensor",
+        "Display": "4.3 inch Full HD TRILUMINOS&trade; with X-Reality&trade; for mobile picture engine.",
+        "Durability": "Waterproof (IP55 and IP58) and dust-resistant (IP55)",
+        "Battery": "Talk time up to 18 hours"
+      },
+      "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?mscssid=&nmOrderBy=1&ttKeyword=Z1%20Compact&idManufacturer=2809&flPackageOnly=0&idCategory=8057&nmSortBy=3&idRange=24113",
+      "video": "http://www.youtube.com/watch?v=HabsnIEbfCQ?rel=0&feature=youtu.be",
+      "image": "/images/smartphones/z1Compact.png",
+      "colour": "blue"
+    },
+    {
+      "title": {
+        "text": "Z1",
+        "image": "/images/titles/z1.png"
+      },
+      "tagline": "All the power and smartness of Sony in a premium smartphone",
+      "description": "Sharper, clearer, richer, brighter. The world's best camera in a waterproof smartphone, with a superior 5 inch HD display. Social Live allows you to share your precious moments in real time, and Info-eye&trade; to experience more through your viewfinder. Sleek, slim, yet durable and powered by an advanced QuadCore Processor so you can run apps, surf the internet and stream videos without a break.",
+      "specification": {
+        "Weight": "169 grams",
+        "Dimensions": "144.4mm x 73.9mm x 8.5mm",
+        "Camera": "20.7 megapixel",
+        "Display": "5.0 inch Full HD TRILUMINOS&trade;",
+        "Durability": "Waterproof (IPX5 and IPX8)",
+        "Battery": "Talk time up to 14 hours"
+      },
+      "link": "http://www.exertismicro-p.co.uk/products/ANDROID-OS-MOBILE-PHONE/SONY/p2025321/SONY-Xperia-Smartphones-ANDROID-OS-MOBILE-PHONE-1276-0471.aspx?mscssid=",
+      "video": "http://www.youtube.com/watch?v=jMr-imu3EfE?rel=0&feature=youtu.be",
+      "image": "/images/smartphones/z1.png",
+      "colour": "orange"
+    },
+    {
+      "title": {
+        "text": "Z Ultra",
+        "image": "/images/titles/z-ultra.png"
+      },
+      "tagline": "The largest display in the world's slimmest Full HD smartphone",
+      "description": "Ultra slim and ultra light, the Xperia&trade; Z Ultra is extremely portable and easy to hold in one hand. But also super-durable, waterproof and dust resistant - ready to handle whatever life has in store. The highly responsive screen is compatible with pencil or stylus and handwriting recognition, and the 8MP camera means stunning shots in any light.",
+      "specification": {
+        "Weight": "212 grams",
+        "Dimensions": "179mm x 92mm x 6.5mm",
+        "Camera": "8 megapixel fast-capture with Exmor resolution",
+        "Display": "5.0 inch Full HD TRILUMINOS&trade; with X-Reality&trade; for mobile picture engine",
+        "Durability": "Waterproof (IP55 and IP58)",
+        "Battery": "Talk time up to 16 hours"
+      },
+      "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?mscssid=&nmOrderBy=1&ttKeyword=Z%20Ultra&idManufacturer=2809&flPackageOnly=0&idCategory=8057&nmSortBy=3&idRange=24113",
+      "video": "http://www.youtube.com/watch?v=AM1Yoh31LvE?rel=0&feature=youtu.be",
+      "image": "/images/smartphones/z1Ultra.png",
+      "colour": "red"
+    },
+    {
+      "title": {
+        "text": "M",
+        "image": "/images/titles/m.png"
+      },
+      "tagline": "The new Sony smartphone with one-touch functions",
+      "description": "With this NFC phone, sharing your world has never been easier. A friend's phone? Your Bluetooth&reg; speakers? Your TV? All it takes is one click, touch or tap to share your music, video and photos with other NFC enabled devices. The bright, high quality 4 inch display means it's perfect for immersive entertainment, but fits in the palm of your hand. It comes in a range of stunning colours.",
+      "specification": {
+        "Weight": "115 grams",
+        "Dimensions": "179mm x 92mm x 6.5mm",
+        "Camera": "8 megapixel fast-capture with Exmor resolution",
+        "Display": "4 inch touch-screen",
+        "Durability": "Scratch resistant",
+        "Battery": "Talk time up to 10 hours and 18 minutes"
+      },
+      "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?mscssid=&nmOrderBy=1&ttKeyword=M&idManufacturer=2809&flPackageOnly=0&idCategory=8057&nmSortBy=3&idRange=24113",
+      "video": "http://www.youtube.com/watch?v=ALBVirRN3ks?rel=0&feature=youtu.be",
+      "image": "/images/smartphones/m.png",
+      "colour": "red"
+    },
+    {
+      "title": {
+        "text": "SP",
+        "image": "/images/titles/sp.png"
+      },
+      "tagline": "High definition entertainment in a premium design",
+      "description": "Design connoisseur? You'll love the Xperia&trade; SP with its precision crafted aluminium frame, super-sharp HD screen and customisable illuminations. From sleep to snap in less than a second - enjoy razor sharp images and HD video even in low light. Then share your pictures, video and music with one-touch sharing or through your TV screen and speakers.",
+      "specification": {
+        "Weight": "155 grams",
+        "Dimensions": "130.6mm x 67.1mm x 9.98mm",
+        "Camera": "8 megapixel fast-capture; 16x digital zoom",
+        "Display": "4.6 inch TFT",
+        "Durability": "Scratch resistant",
+        "Battery": "Talk time up to 16 hours"
+      },
+      "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?mscssid=&nmOrderBy=1&ttKeyword=SP&idManufacturer=2809&flPackageOnly=0&idCategory=8057&nmSortBy=3&idRange=24113",
+      "video": "http://www.youtube.com/watch?v=Nc6_QhaXZc4?rel=0&feature=youtu.be",
+      "image": "/images/smartphones/sp.png",
+      "colour": "orange"
+    },
+    {
+      "title": {
+        "text": "L",
+        "image": "/images/titles/l.png"
+      },
+      "tagline": "Every moment captured perfectly",
+      "description": "Shoot like an expert with this 8MP fast capture camera phone. HDR ensures sharp, bright photos and video whatever the light conditions. For those important moments, there's a dedicated camera key that shoots even from a locked screen. The superior 4.3 inch display allows vivid playback, and Sony sound and Clear Audio+ means you can hear both films and music with impressive clarity.",
+      "specification": {
+        "Weight": "137 grams",
+        "Dimensions": "128.7mm x 65mm x 9.7mm",
+        "Camera": "8 megapixel fast-capture with Exmor RS; 4x digital zoom",
+        "Display": "4.3 inch TFT touch-screen",
+        "Battery": "Talk time up to 8 hours and 30 minutes"
+      },
+      "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?mscssid=&nmOrderBy=1&ttKeyword=L&idManufacturer=2809&flPackageOnly=0&idCategory=8057&nmSortBy=3&idRange=24113",
+      "video": "http://www.youtube.com/watch?v=bM8cY4SiTLM?rel=0&feature=youtu.be",
+      "image": "/images/smartphones/l.png",
+      "colour": "orange"
+    },
+    {
+      "title": {
+        "text": "E1",
+        "image": "/images/titles/e1.png"
+      },
+      "tagline": "The most powerful smartphone processor in its class****",
+      "description": "Built for your active lifestyle, the Xperia&trade; E1 features Sony's signature design. It's exclusive audio technologies give you a pumping, boom-bastic listening experience to add crystal-clear sound quality to the party vibe. With its premium-feel interface, lightning fast processor and long-life battery the Xperia&trade; E1 welcomes you to the full Sony smartphone experience.",
+      "specification": {
+        "Weight": "120 grams",
+        "Dimensions": "118mm x 62.4mm x 12mm",
+        "Camera": "3 megapixel, HD video recording (720p)",
+        "Display": "4 inch 800 x 480 pixels",
+        "Durability": "Scratch resistant",
+        "Battery": "Talk time: up to 9 hours 12 minutes"
+      },
+      "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?mscssid=&nmOrderBy=1&ttKeyword=E1&idManufacturer=2809&flPackageOnly=0&idCategory=8057&nmSortBy=3&idRange=24113",
+      "video": "http://www.youtube.com/watch?v=dGfyankbuGk?rel=0&feature=youtu.be",
+      "image": "/images/smartphones/e1.png",
+      "colour": "orange"
+    },
+    {
+      "title": {
+        "text": "E",
+        "image": "/images/titles/e.png"
+      },
+      "tagline": "The no-nonsense Android smartphone",
+      "description": "The Xperia&trade; E remembers why phones were made in the first place - quick, clear and easy phone calls. HD voice and noise cancellation help you hear and be heard wherever you're calling from. But it has all the features you'd expect from a smartphone - quality camera, great music experience and access to abundant apps.",
+      "specification": {
+        "Weight": "115.7 grams",
+        "Dimensions": "113.5mm x 61.8mm x 11mm",
+        "Camera": "8 megapixel fast-capture with Exmor RS; 4x digital zoom",
+        "Display": "4.6 inch TFT touch-screen",
+        "Durability": "Scratch resistant",
+        "Battery": "Talk time up to 6 hours and 12 minutes"
+      },
+      "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?mscssid=&nmOrderBy=1&ttKeyword=E&idManufacturer=2809&flPackageOnly=0&idCategory=8057&nmSortBy=3&idRange=24113",
+      "video": "http://www.youtube.com/watch?v=uQgQJvHdjx8?rel=0&feature=youtu.be",
+      "image": "/images/smartphones/e.png",
+      "colour": "red"
+    }
+  ],
+  "footnotes": [
+    "* In compliance with IP65 and IP68, the Xperia Z3 and Xperia Z3 Compact are protected against the ingress of dust and is waterproof. Provided that all ports and covers are firmly closed, the phone is (i) dust tight and (ii) protected against low pressure jets of water from all practicable directions in compliance with IP65; and/or (iii) can be kept under 1.5 m of fresh water for up to 30 minutes in compliance with IP68. In compliance with IP55 and IP58, the Xperia Z2, Xperia Z1 Compact and Xperia Z Ultra are protected against the ingress of dust and is waterproof. Provided that all ports and covers are firmly closed, the phone is (i) protected against low pressure jets of water from all practicable directions in compliance with IP55; and/or (ii) can be kept under 1.5 m of fresh water for up to 30 minutes in compliance with IP58. For more information go to: <a href='http://www.sonymobile.com/testresults'>www.sonymobile.com/testresults</a>",
+    "** Based on multiple battery performance testings conducted between July and September 2014 in a laboratory under an active use conditions reflective of the Typical Smartphone User by Sony Mobile Communications AB. For more information go to: <a href='http://www.sonymobile.com/testresults'>www.sonymobile.com/testresults</a>",
+    "*** Functionality available on Sony Xperia Z3 and Z3 Compact starting from November 2014. PlayStation&reg;4 System, DUALSHOCK&reg;4, Sony Entertainment Network and high speed internet connection required. Some games may not support this feature. Limited time offer, go to <a href='http://www.sonymobile.com'>www.sonymobile.com</a> for more information.",
+    "**** 'Class' is defined by Strategy Analytics as the top 100 Android smartphones of 2013 with an MSRP/RRP of &lt;175 Euros at launch on global distribution and confirmed as the best smartphone (based on specs) within this price band. The Xperia&trade; E1 is powered by Qualcomm's MSM8210 1.2 GHz, 512 MB RAM dual-core processor and features a four-inch (233 ppi) display combined with a large 1700 mAh battery. Specifications &amp; pricing were verified by Strategy Analytics' SpecTRAX &amp; PriceTRAX services as of 30th January 2014. For more information go to: <a href='http://www.sonymobile.com/testresults'>www.sonymobile.com/testresults</a>"
+  ]
+}

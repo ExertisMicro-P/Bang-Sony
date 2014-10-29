@@ -9,30 +9,9 @@
   margin-bottom: 15px;
 }
 
-.homepage .menu {
-  margin-bottom:0px;
-  background-color:black;
-  z-index:999;
-}
-
 .line-height
 {
   line-height:20px;
-}
-
-.header {
-  text-align: center;
-  color: #ffffff;
-  background: #000000; // fallback for older browsers
-  background: linear-gradient(to right, #000000 0%, #8092ba 100%); 
-}
-
-.accessories .header {
-  background: #c8692f;
-}
-
-.coolstuffs .header {
-  background: #216ca8;
 }
 
 .ui-tooltip, .arrow:after {
@@ -67,7 +46,9 @@
   background-repeat: repeat-y;
 }
 
-.tablets .main {
+.smartphones .main,
+.tablets .main,
+.promotions .main {
   background-color: #000000;
   background-image: url('/sony/images/xperiabg.jpg');
   background-repeat: repeat-y;

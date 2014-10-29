@@ -7,32 +7,14 @@
       },
       "tagline": "Incredible viewing and amazing sound – all in a super-slim, ultra-light tablet",
       "description": "At only 6.4 mm and from 426 g, it is the world’s slimmest and lightest waterproof tablet. Its dust- and scratch-resistant display, and entirely waterproof body is designed to handle every aspect of your life.",
-      "specification": [
-        {
-          "label": "Weight",
-          "val": "426 grams"
-        },
-        {
-          "label": "Dimensions",
-          "val": "266mm x 172mm x 6.4mm"
-        },
-        {
-          "label": "Camera and video",
-          "val": "Rear - Exmor RS, 8.1M Pixels; Front - Exmor R, 2.2M Pixels"
-        },
-        {
-          "label": "Display",
-          "val": "IPS with Triluminos&trade; and X-Reality&trade; for Mobile WUXGA 1920 x 1200"
-        },
-        {
-          "label": "Durability",
-          "val": "Water resistant and dust-resistant"
-        },
-        {
-          "label": "Battery",
-          "val": "Lithium Polymer; Music listening time up to 200 hours; Video playback up to 13 hours"
-        }
-      ],
+      "specification": {
+        "Weight": "426 grams",
+        "Dimensions": "266mm x 172mm x 6.4mm",
+        "Camera and video": "Rear - Exmor RS, 8.1M Pixels; Front - Exmor R, 2.2M Pixels",
+        "Display": "IPS with Triluminos&trade; and X-Reality&trade; for Mobile WUXGA 1920 x 1200",
+        "Durability": "Water resistant and dust-resistant",
+        "Battery": "Lithium Polymer; Music listening time up to 200 hours; Video playback up to 13 hours"
+      },
       "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?&idManufacturer=2809&idRange=20567&mscssid=&mscssid=",
       "video": "http://www.youtube.com/watch?v=kXP2GwKZ27Q?rel=0&feature=youtu.be",
       "image": "images/tablets/xperiaTablet2.png",
@@ -45,32 +27,14 @@
       },
       "tagline": "Xperia&trade; Tablet Z - experience the best of Sony in a Tablet",
       "description": "A sharper, faster, more colourful tablet. The latest Sony HD Reality Display technology ensures the most vivid viewing imaginable. This go-anywhere tablet is slim, light and portable, but super-strong glass and a water-resistant construction make it anything but fragile. Powered by a Snapdragon S4 Pro processor for super-speed, crystal clear sound and an impresive battery life.",
-      "specification": [
-        {
-          "label": "Weight",
-          "val": "495 grams"
-        },
-        {
-          "label": "Dimensions",
-          "val": "266mm x 172mm x 6.9mm"
-        },
-        {
-          "label": "Camera and video",
-          "val": "Rear - 8.1 MP with Exmor R for mobile and AF/Macro; Front - 2.2 MP with Exmor R for mobile"
-        },
-        {
-          "label": "Display",
-          "val": "TFT Colour LCD5 10.1 inch touchscreen with Mobile BRAVIA&trade; Engine 2; WUXGA 1920 x 1200; Anti-fingerprint; LED Backlight"
-        },
-        {
-          "label": "Durability",
-          "val": "Water resistant and dust-resistant"
-        },
-        {
-          "label": "Battery",
-          "val": "Lithium Polymer; Charging time 6.5 hours; Music listening time up to 100 hours; Video playback up to 9 hours 50 mins"
-        }
-      ],
+      "specification": {
+        "Weight": "495 grams",
+        "Dimensions": "266mm x 172mm x 6.9mm",
+        "Camera and video": "Rear - 8.1 MP with Exmor R for mobile and AF/Macro; Front - 2.2 MP with Exmor R for mobile",
+        "Display": "TFT Colour LCD5 10.1 inch touchscreen with Mobile BRAVIA&trade; Engine 2; WUXGA 1920 x 1200; Anti-fingerprint; LED Backlight",
+        "Durability": "Water resistant and dust-resistant",
+        "Battery": "Lithium Polymer; Charging time 6.5 hours; Music listening time up to 100 hours; Video playback up to 9 hours 50 mins"
+      },
       "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?&idManufacturer=2809&idRange=20567&mscssid=&mscssid=",
       "video": "http://www.youtube.com/watch?v=lJ6oSFMzFkg?rel=0&feature=youtu.be",
       "image": "images/tablets/xperiaTablet.png",

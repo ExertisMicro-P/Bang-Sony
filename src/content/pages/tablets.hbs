@@ -15,11 +15,11 @@
           <ul class="product__spec">
             <div class="product__spec-col">
             {{#each specification}}
-              {{#ifCond @index '==' 3}}
+              {{#ifHalfway @index ../specification}}
             </div>
             <div class="product__spec-col">
-              {{/ifCond}}
-              <li><span class="product__spec-label">{{{label}}}:</span> {{{val}}}</li>
+              {{/ifHalfway}}
+              <li><span class="product__spec-label">{{{@key}}}:</span> {{{this}}}</li>
             {{/each}}
             </div>
           </ul>
@@ -48,7 +48,7 @@ function initPage() {
         'padding': 0,
         'autoScale': false,
         'transitionIn': 'none',
-        'transitionOut' : 'none',
+        'transitionOut': 'none',
         'title': this.title,
         'width': 680,
         'height': 495,
@@ -59,10 +59,8 @@ function initPage() {
           'allowfullscreen': 'true'
         }
       });
-
       return false;
     });
-
   });
 }
 

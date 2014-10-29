@@ -32,4 +32,10 @@ module.exports.register = function (Handlebars, options) {
     }
   });
 
+  // for determining when #each loops is halfway through a hash
+  Handlebars.registerHelper('ifHalfway', function (index, hash, options) {
+    var length = Object.keys(hash).length;
+    return (index == Math.ceil(length / 2)) ? options.fn(this) : options.inverse(this);
+  });
+
 };
