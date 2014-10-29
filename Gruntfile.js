@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
 
   // load all grunt tasks matching the `grunt-*` pattern
-  require('load-grunt-tasks')(grunt);
+  require('load-grunt-tasks')(grunt, {pattern: ['grunt-*', 'assemble']});
 
   grunt.initConfig({
 
@@ -33,8 +33,8 @@ module.exports = function(grunt) {
         tasks: ['uglify']
       },
       html: {
-        files: ['src/html/**/*.html', 'src/html/**/*.json'],
-        tasks: ['bake']
+        files: 'src/content/**/*',
+        tasks: ['assemble']
       },
       assets: {
         files: ['src/images/**/*', 'src/fonts/**/*', 'src/downloads/**/*'],
@@ -107,16 +107,22 @@ module.exports = function(grunt) {
       }
     },
 
-    // compile html from includes
-    bake: {
+    // compile html
+    assemble: {
+      options: {
+        layoutdir: 'src/content/layouts',
+        partials: 'src/content/partials/**/*.hbs',
+        data: 'src/content/data/**/*.json',
+        helpers: 'src/content/helpers/**/*.js'
+      },
       build: {
         options: {
-          content: 'src/html/content.json'
+          layout: 'default.hbs'
         },
         files: [{
           expand: true,
-          cwd: 'src/html',
-          src: '*.html',
+          cwd: 'src/content/pages',
+          src: '**/*.{hbs,html}',
           dest: '<%= buildDir %>'
         }]
       }
@@ -200,7 +206,7 @@ module.exports = function(grunt) {
 
   // standard build task, should be run before commiting
   grunt.registerTask('build', ['sass', 'autoprefixer', 'cssmin', 'uglify',
-    'bake', 'rsync:images', 'rsync:fonts', 'rsync:downloads']);
+    'assemble', 'rsync:images', 'rsync:fonts', 'rsync:downloads']);
   
   // recompile the microsite from scratch
   grunt.registerTask('rebuild', ['clean', 'rsync:framework', 'build']);

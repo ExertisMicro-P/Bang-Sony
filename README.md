@@ -7,7 +7,7 @@ Bang's test site: [http://sony.microp.bang-on.net/?project=sony](http://sony.mic
 ## TODO
 * Move inline styling into SCSS modules.
 * Move styles from [_shame.scss](./src/scss/_shame.scss) to abstracted modules.
-* Make better use of [bake](https://github.com/MathiasPaumgarten/grunt-bake) templating to DRY up the markup.
+* Make better use of [assemble](https://github.com/assemble/assemble) templating to DRY up the markup.
 
 ## Getting started
 
@@ -16,6 +16,7 @@ Bang's test site: [http://sony.microp.bang-on.net/?project=sony](http://sony.mic
 * [grunt](http://gruntjs.com/installing-grunt) (and node)
 * [bundler](http://bundler.io/) (and ruby)
 * [Editorconfig](https://github.com/sindresorhus/editorconfig-sublime) sublime plugin
+* [Handlebars](https://github.com/daaain/Handlebars) for sublime
 
 You'll also want the [livereload browser extension](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions).
 

@@ -1,0 +1,26 @@
+<div class="accessories sp_products container--margin__reset">
+
+  {{> header}}
+
+  {{#each accessories.products}}
+    <div class="grid_25 product product--accessory">
+      <div class="product__details">
+        <h1 class="product__title">{{title}}</h1>
+        <p class="product__desc">{{description}}</p>
+        {{> available-colours this}}
+        <a href="{{link}}"><span class="sony-button">Find out more</span></a>
+      </div>
+      <div class="product__image">
+        <img src="{{image}}" alt="Image of {{title}}"/>
+      </div>
+    </div>
+  {{/each}}
+
+</div>
+
+<!-- scripts -->
+<script type="text/javascript">
+
+function initPage() {}
+
+</script>

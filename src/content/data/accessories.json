@@ -1,17 +1,11 @@
 {
-  "accessories": [
+  "products": [
     {
       "title": "SmartWatch 3 SWR50",
       "description": "Even without your smartphone, SmartWatch 3 SWR50 is a fun and useful accessory. You can fill it with music to take with you if you're going for a run. When you're out, you can track your activity and movements as well as sync with your Lifelog when you come home.",
       "colours": [
-        {
-          "class": "yellow",
-          "label": "Yellow"
-        },
-        {
-          "class": "black",
-          "label": "Black"
-        }
+        "Yellow",
+        "Black"
       ],
       "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?nmOrderBy=1&ttKeyword=swr50&flPackageOnly=0&idCategory=8226&lbCategory=OTHER%20WEARABLE%20TECH",
       "image": "images/accessories/SmartWatch3.png"
@@ -20,14 +14,8 @@
       "title": "Stereo Bluetooth&reg; Headset SBH60",
       "description": "You can use SBH60 with any smartphone, tablet, laptop or music player. It comes with a 3.5 mm audio cable if you want to connect to a device that is not Bluetooth&reg; enabled. Get a great music, movie and gaming experience. Enjoy long and comfortable VoIP calls. Video chat for as long as you want. Connecting your SBH60 to your audio device is easy with NFC. For non NFC enabled devices, normal Bluetooth&reg; pairing applies.",
       "colours": [
-        {
-          "class": "black",
-          "label": "Black"
-        },
-        {
-          "class": "white",
-          "label": "White"
-        }
+        "Black",
+        "White"
       ],
       "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?nmOrderBy=1&ttKeyword=sbh60&flPackageOnly=0&idCategory=8100&lbCategory=HANDSFREE%20HEADSETS",
       "image": "images/accessories/SBH60.png" 
@@ -36,14 +24,8 @@
       "title": "Stereo Bluetooth&reg; Headset SBH80",
       "description": "Designed to be worn and used all day and in any situation, the SBH80 is discreet and suits any type of clothing style. Wear it at work, at home, indoors or outdoors. The main unit and headphone exterior are splash-proof so you don't have to worry if it rains. Worn on the neck, this Bluetooth&reg; wireless headset is perfectly balanced; two ultra-thin smart-memory metal strips rest lightly on your shoulders. You hardly know it's there. The SBH80 adapts itself to your body and stays there.",
       "colours": [
-        {
-          "class": "black",
-          "label": "Black"
-        },
-        {
-          "class": "white",
-          "label": "White"
-        }
+        "Black",
+        "White"
       ],
       "link": "http://www.exertismicro-p.co.uk/products/EARPHONES/SONY/p2038652/SONY-Other-SONY-Products-EARPHONES-1274-8624.aspx?flNoRedirect=1&flPackageOnly=0&lbCategory=EARPHONES&referer=/catalogue/catProductList.asp",
       "image": "images/accessories/SBH80.png" 
@@ -52,14 +34,8 @@
       "title": "Sony Metal SmartWatch 2",
       "description": "With a Sony SmartWatch 2 on your wrist, you miss nothing. Like a mini version of your smartphone, SmartWatch 2 reflects what is happening in your world and lets you know.",
       "colours": [
-        {
-          "class": "black",
-          "label": "Black"
-        },
-        {
-          "class": "black-and-grey",
-          "label": "Black and grey"
-        }
+        "Black",
+        "Black and grey"
       ],
       "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?nmOrderBy=1&ttKeyword=smartwatch&flPackageOnly=0&idCategory=8227&lbCategory=SMART%20WATCH",
       "image": "images/accessories/SmartWatch2.png" 
@@ -68,34 +44,13 @@
       "title": "Sony SmartWatch 2 Wristband",
       "description": "Customise your SmartWatch 2 to suit your personal style. These SmartWatch 2 wrist straps are comfortable and vibrant, 24 mm wide and attach securely to your SmartWatch 2 spring bars.",
       "colours": [
-        {
-          "class": "yellow",
-          "label": "Yellow"
-        },
-        {
-          "class": "pink",
-          "label": "Pink"
-        },
-        {
-          "class": "purple",
-          "label": "Purple"
-        },
-        {
-          "class": "turquoise",
-          "label": "Turquoise"
-        },
-        {
-          "class": "black",
-          "label": "Black"
-        },
-        {
-          "class": "brown",
-          "label": "Brown"
-        },
-        {
-          "class": "black-and-grey",
-          "label": "Black and grey"
-        }
+        "Yellow",
+        "Pink",
+        "Purple",
+        "Turquoise",
+        "Black",
+        "Brown",
+        "Black and grey"
       ],
       "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?nmOrderBy=1&ttKeyword=SmartWatch%20strap&idManufacturer=2809&flPackageOnly=0&idCategory=8040",
       "image": "images/accessories/SmartWatch2WristBand.png" 
@@ -104,14 +59,8 @@
       "title": "Sony SBH50 Bluetooth Handset",
       "description": "Your music will sound as good as you want with these Bluetooth&reg; stereo headphones. The bass is deep and treble is clean and clear. Music the way it was made. Even the person you are calling will experience superior sound. The integrated microphone technology is designed to pick up the broadest range of frequencies in human speech. At the same time, background noise is kept to a minimum.",
       "colours": [
-        {
-          "class": "black",
-          "label": "Black"
-        },
-        {
-          "class": "white",
-          "label": "White"
-        }
+        "Black",
+        "White"
       ],
       "link": "http://www.exertismicro-p.co.uk/catalogue/catProductList.asp?nmOrderBy=1&ttKeyword=sbh50&flPackageOnly=0&idCategory=7993&lbCategory=EARPHONES",
       "image": "images/accessories/SBH50.png" 
@@ -120,10 +69,7 @@
       "title": "Sony SBH52 Bluetooth Headset",
       "description": "With this innovative handheld audio accessory, you can enjoy a comfortable and easy calling experience. The person you are talking to will experience clear voice audio during the call. When a call comes in via your smartphone, you can see who's calling in the SBH52 display. Press once to answer. You can use the SBH52 to view recent calls and call again directly. Move around freely and leave your phone in your pocket, bag or anywhere within Bluetooth&reg; range (up to 10m). For a handsfree calling experience, connect the headphones (supplied in kit).",
       "colours": [
-        {
-          "class": "black",
-          "label": "Black"
-        }
+        "Black"
       ],
       "link": "http://www.exertismicro-p.co.uk/products/HANDSFREE-HEADSETS/SONY/p2025550/SONY-Audio-Headphones-HANDSFREE-HEADSETS-1276-3276.aspx?flNoRedirect=1&referer=/catalogue/catProductList.asp",
       "image": "images/accessories/SBH52.png" 
