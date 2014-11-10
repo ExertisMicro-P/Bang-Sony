@@ -8,6 +8,8 @@ Bang's test site: [http://sony.microp.bang-on.net/?project=sony](http://sony.mic
 * Move inline styling into SCSS modules.
 * Move styles from [_shame.scss](./src/scss/_shame.scss) to abstracted modules.
 * Make better use of [assemble](https://github.com/assemble/assemble) templating to DRY up the markup.
+* Refactor comparison table markup so that we don't have to manually position headings when content changes.
+* Can we abstract modules into a single `box` module with variant(s)?
 
 ## Getting started
 
@@ -16,7 +18,7 @@ Bang's test site: [http://sony.microp.bang-on.net/?project=sony](http://sony.mic
 * [grunt](http://gruntjs.com/installing-grunt) (and node)
 * [bundler](http://bundler.io/) (and ruby)
 * [Editorconfig](https://github.com/sindresorhus/editorconfig-sublime) sublime plugin
-* [Handlebars](https://github.com/daaain/Handlebars) for sublime
+* [Handlebars](https://github.com/daaain/Handlebars) sublime plugin
 
 You'll also want the [livereload browser extension](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions).
 
@@ -38,6 +40,11 @@ Install the ruby gems:
 bundle install
 ```
 
+Generate the `newer` cache (this will take a minute or two).
+```sh
+grunt newer:imagemin
+```
+
 ## Development
 
 **You should not be changing anything in the [multi-page](multi-page) or [sony](sony) directories directly.**
@@ -55,19 +62,8 @@ Running or `grunt` or `grunt watch` will listen for changes and do partial recom
 * `grunt` - alias for `grunt watch` & `grunt server`
 * `grunt watch` - watch the `src` directory for changes
 * `grunt server` - run a local webserver and open a browser tab
-* `grunt imagemin` - optimise images (this is slow, so is **not included** in `grunt build` by default)
 * `grunt build` - compile the `sony` microsite
 * `grunt rebuild` - wipe the `sony` microsite before building (updates the `micro-site` framework).
-
-### Adding and updating images
-
-The `grunt imagemin` task losslessly optimises all of the images in the [src/images](src/images) directory. This is a slow operation and therefore not included as part of `grunt build` by default.
-
-**If you add or update an image you need to manually run this operation before committing:**
-
-```sh
-grunt imagemin && grunt build
-```
 
 ## Updating the multi-page framework
 

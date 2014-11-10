@@ -20,7 +20,9 @@
     {{#each smartphones.products}}
       <div id="{{slugify title.text}}" class="grid_25 product product--tablet product--{{colour}}">
         <div class="product__details">
-          <h2 class="product__title"><img src="{{title.image}}" alt="Xperia&trade; {{{title.text}}}"/></h2>
+          <h2 class="product__title">
+            <img src="{{title.image}}" alt="Xperia&trade; {{{title.text}}}"/>
+          </h2>
           <h3 class="product__tagline">{{{tagline}}}</h3>
           <h4 class="product__heading">Features</h4>
           <p class="product__desc">{{{description}}}</p>
