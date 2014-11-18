@@ -1,0 +1,62 @@
+.product-slider {
+  position: relative;
+  float: none;
+  width: 100%;
+  margin: 0;
+  background: #3b414f;
+  border-bottom: 4px solid #b8b5b7;
+
+  @extend .clearfix;
+
+  .product-slider__slides {
+    padding: 0;
+    margin: 0;
+  }
+
+  // slider theme
+  .bx-wrapper {
+    float: none;
+    padding: 0;
+    margin: 0;
+
+    .bx-viewport {
+      float: none;
+      left: 0;
+      border: none;
+      background: none;
+      box-shadow: none;
+    }
+
+    .bx-loading {
+      background-image: url('/sony/images/slider/bx_loader.gif');
+    }
+    .bx-prev {
+      left: -50px;
+      background-image: url('/sony/images/slider/controls.png');
+    }
+    .bx-next {
+      right: -45px;
+      background-image: url('/sony/images/slider/controls.png');
+    }
+  }
+}
+
+.product-slide {
+  padding: 30px 0;
+
+  // this shouldn't really be nested, but neccessary to override
+  // `.sony-microsite h[X]` selector
+  .product-slide__title {
+    margin: 10px 0 0 0;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: $body-text;
+  }
+}
+
+.product-slide__image {
+  width: auto;
+  height: 80px;
+  margin: 0 auto;
+}

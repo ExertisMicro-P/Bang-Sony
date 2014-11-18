@@ -1,0 +1,55 @@
+.services {
+  padding: 10px 0;
+  background-color: #dedede;
+
+  @extend .clearfix;
+
+
+  // this shouldn't really be nested, but neccessary to override
+  // `.sony-microsite h[X]` selector
+  .services__title {
+    font-size: 24px;
+    text-align: center;
+    color: #616161;
+  }
+}
+
+.service {
+  float: left;
+  width: 405px;
+  margin: 30px 60px;
+
+  &:nth-child(odd) {
+    margin-left: 0;
+  }
+}
+
+.service__main {
+  float: right;
+  width: 305px;
+
+  // this shouldn't really be nested, but neccessary to override
+  // `.sony-microsite h[X]` selector
+  .service__title {
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #616161;
+  }
+
+  // this shouldn't really be nested, but neccessary to override
+  // `.sony-microsite p` selector
+  .service__description {
+    color: #616161;
+  }
+}
+
+.service__aside {
+  float: left;
+  width: 70px;
+  margin-right: 30px;
+}
+
+.service__image {
+  width: 70px;
+}

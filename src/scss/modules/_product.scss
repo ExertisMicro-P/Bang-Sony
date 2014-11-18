@@ -3,25 +3,30 @@
   margin: 0;
   padding-top: 40px;
   padding-bottom: 40px;
-  color: #fff;
-  border-bottom: 1px solid white;
+  color: $body-text;
+  border-bottom: 1px solid #fff;
 
   // alternate alignment (left/right flip)
-  &:nth-child(even) > .product__image,
-  &:nth-child(even) > .product__details {
-    float: right;
-    margin-right: 50px;
-    margin-left: 0;
+  &:nth-child(even) {
+    > .product__main {
+      float: right;
+    }
+    > .product__aside{
+      float: right;
+      margin-left: 60px;
+      margin-right: 0;
+    }
   }
 }
 
-.product__details {
+.product__main {
   float: left;
-  width: 460px;
-  margin-left: 50px;
+  width: 540px;
+  margin-left: 60px;
+  margin-right: 60px;
 
   // this shouldn't really be nested, but neccessary to override
-  // `.container_25 h1` selector
+  // `.sony-microsite h[X]` selector
   .product__title {
     margin-top: 0;
     font-size: 34px;
@@ -29,28 +34,30 @@
     height: auto;
   }
 
-  // this shouldn't really be nested, but .product__title is, so this is consistent
-  .product__description {
-    line-height: 1.42em; // 20px / 14px
-  }
-
   // this shouldn't really be nested, but neccessary to override
-  // `.container_25 h3` selector
+  // `.sony-microsite h[X]` selector
   .product__tagline {
-    color: #fff;
+    color: $body-text;
     font-size: 14px;
   }
 
   // this shouldn't really be nested, but neccessary to override
-  // `.container_25 h4` selector
+  // `.sony-microsite h[X]` selector
   .product__heading {
-    color: #fff;
+    color: $body-text;
     font-size: 18px;
     text-transform: uppercase;
   }
 }
 
+.product__description {
+  line-height: 1.42em; // 20px / 14px
+}
+
 .product__spec {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
   @extend .clearfix;
 }
 
@@ -65,32 +72,29 @@
   text-transform: uppercase;
 }
 
-.product__image {
+.product__aside {
   float: left;
-  width: 380px;
-  margin-left: 50px;
+  width: 270px;
+  margin-right: 60px;
+  text-align: center;
 }
 
-.product--red    .product__heading { color: #ae1825; }
-.product--orange .product__heading { color: #c8692f; }
-.product--green  .product__heading { color: #588436; }
-.product--blue   .product__heading { color: #216ca8; }
-
-.product--tablet {
-  .product__details {
-    width: 540px;
-  }
-  .product__image {
-    width: 300px;
-  }
+.product__image {
+  max-width: 100%;
 }
+
+.product--red    .product__heading { color: $sony-red; }
+.product--orange .product__heading { color: $sony-orange; }
+.product--green  .product__heading { color: $sony-green; }
+.product--blue   .product__heading { color: $sony-blue; }
 
 .product--accessory {
-  background: #d68343; // fallback for older browsers
-  background: linear-gradient(to bottom, #d68343 0%, #d68343 85%, #b56541 100%);
-}
+  @include bottom-inset-box-gradient($sony-orange, $sony-lighter-orange);
 
-.product--coolstuff {
-  background: #3287bd; // fallback for older browsers
-  background: linear-gradient(to bottom, #3287bd 0%, #3287bd 85%, #0068ad 100%);
+  .product__main {
+    width: 440px;
+  }
+  .product__aside {
+    width: 370px;
+  }
 }

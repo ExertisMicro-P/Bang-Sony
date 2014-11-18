@@ -4,7 +4,6 @@
   height: 38px;
   float: left;
   margin-right: 20px;
-  margin-top: 20px;
   padding: 0 20px;
   text-align: center;
   line-height: 40px;
@@ -17,7 +16,7 @@
   text-decoration: none;
 
   &:hover {
-    background-color: #ae1825;
+    background-color: $sony-red;
     color: #fff;
   }
 } 

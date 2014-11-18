@@ -1,0 +1,73 @@
+{
+  "sections": [
+    {
+      "title": {
+        "text": "Xperia&trade; Transfer",
+        "image": "images/titles/transfer.png"
+      },
+      "body": "<p>With Xperia&trade; Transfer, your old phone can no longer hold you hostage. Whether you have an iPhone or any other smartphone, our migration wizard means you can seamlessly import what you need without hassle.</p><p>Whether on a PC or Mac, in just three simple steps you can transfer contacts, photos, videos, messages, music and more to your new Xperia&trade; smartphone.</p>",
+      "footnotes": [
+        "Xperia&trade; is a trademark or registered trademark of Sony Mobile Communications AB. iPhone is a trademark or registered trademark of Apple Inc."
+      ],
+      "link": {
+        "local-download": true,
+        "file-name": "XperiaTransferGuide.pdf",
+        "text": "Download Guide"
+      },
+      "media": {
+        "type": "video",
+        "src": "//www.youtube.com/embed/FtsxQrw7Emo?rel=0"
+      }
+    },
+    {
+      "title": {
+        "text": "Xperia&trade; Care",
+        "image": "images/titles/care.png"
+      },
+      "body": "<p>We're here for you. Whether you're downloading new software or want the latest new feature, just call, chat or email and we'll do our best to help.</p><p>If your device is in need of some extra care we can fix it for you. Make the most of your smartphone and receive the support you need, right at your fingertips.</p>",
+      "footnotes": [
+        "Xperia&trade; is a trademark or registered trademark of Sony Mobile Communications AB."
+      ],
+      "link": null,
+      "media": {
+        "type": "image",
+        "src": "images/coolstuff/care.png",
+        "alt": "Image of a lady using an Xperia&trade; phone"
+      }
+    },
+    {
+      "title": {
+        "text": "Xperia&trade; Lounge",
+        "image": "images/titles/lounge.png"
+      },
+      "body": "<p>Your ticket to a world of entertainment and amazing experiences, Xperia&trade; Lounge gives you access to exclusive promotions, including the chance to win incredible prizes from some of our partners.</p><p>With its unbeatable sports, music and film content, the Xperia&trade; Lounge beta app is best experienced on an Xperia&trade; but can be downloaded on any Android smartphone*.</p>",
+      "footnotes": [
+        "Sony services are network provider-dependent and may not be available in every market.",
+        "*Running on Andorid version 2.3 or later."
+      ],
+      "link": null,
+      "media": {
+        "type": "image",
+        "src": "images/coolstuff/lounge.png",
+        "alt": "Image of Xperia phones accessing the Xperia&trade; Lounge"
+      }
+    },
+    {
+      "title": {
+        "text": "Sony Entertainment Network",
+        "image": "images/titles/sony-entertainment-network.png"
+      },
+      "body": "<p>Sony Entertainment Network* instantly delivers music, movies, games and more; PlayStation&reg;** Network for the ultimate gaming experience, Video Unlimited for on-demand entertainment and Music Unlimited for millions of songs and hundreds of channels to stream at home or on the go. One account is all you need to watch, listen, play and share across multiple devices.</p>",
+      "footnotes": [
+        "*Sony Entertainment Network services are not available, or may not be supported, in every country and language. Sony Entertainment Network and their logos are trademarks or registered trademarks of Sony Corporation.",
+        "**PlayStation&reg; is a trademark or registered trademark of Sony Computer Entertainment Inc."
+      ],
+      "link": null,
+      "media": {
+        "type": "image",
+        "src": "images/coolstuff/entertainment.png",
+        "alt": "Image of the Sony Entertainment Netwok logo"
+      }
+    }
+  ]
+}

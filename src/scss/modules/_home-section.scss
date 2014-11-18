@@ -1,0 +1,74 @@
+.home-section {
+  position: relative;
+  margin: 0;
+  padding: 60px 0;
+  color: $body-text;
+
+  &:nth-child(even) {
+    > .home-section__aside {
+      float: right;
+      margin-left: 0;
+      margin-right: 60px;
+    }
+    > .home-section__main {
+      float: left;
+      margin-left: 60px;
+      margin-right: 40px;
+    }
+  }
+}
+
+.home-section--red    {
+  @include inset-box-gradient($sony-red, $sony-lighter-red);
+}
+.home-section--orange  {
+  @include inset-box-gradient($sony-orange, $sony-lighter-orange);
+}
+.home-section--green {
+  @include inset-box-gradient($sony-green, $sony-lighter-green);
+}
+.home-section--blue {
+  @include inset-box-gradient($sony-blue, $sony-lighter-blue);
+}
+
+.home-section__aside {
+  float: left;
+  width: 430px;
+  margin-left: 60px;
+  text-align: center;
+}
+
+.home-section__image {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.home-section__main {
+  float: right;
+  width: 400px;
+  margin-left: 40px;
+  margin-right: 60px;
+  padding-bottom: 60px; // space for the absolute positioned tagline
+
+  .home-section__title {
+    height: auto;
+    margin: 0 0 20px 0;
+    font-size: 34px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: $body-text;
+  }
+}
+
+.home-section__body {
+  p {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+}
+
+.home-section__tagline {
+  position: absolute;
+  bottom: 60px;
+  color: $body-text;
+}

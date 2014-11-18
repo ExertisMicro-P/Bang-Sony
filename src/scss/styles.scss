@@ -1,18 +1,27 @@
+@import 'vendor/jquery.bxslider';
+
+@import 'framework/colours';
+@import 'framework/mixins';
 @import 'framework/grid';
+@import 'framework/utils';
 @import 'framework/reset';
 @import 'framework/icons';
 
-@import 'modules/colours';
-@import 'modules/buttons';
+@import 'modules/button';
 @import 'modules/header';
 @import 'modules/nav';
-@import 'modules/sliders';
-@import 'modules/sections';
-@import 'modules/draggable';
+@import 'modules/home-section';
 @import 'modules/product';
+@import 'modules/document-download';
 @import 'modules/promotion';
 @import 'modules/available-colours';
 @import 'modules/footnotes';
+@import 'modules/news-story';
+@import 'modules/coolstuff-section';
+@import 'modules/comparison-table';
+@import 'modules/promo-slider';
+@import 'modules/product-slider';
+@import 'modules/services';
 
 @import 'shame';
 

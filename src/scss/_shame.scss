@@ -5,51 +5,7 @@
 // abstracted to modules yet.
 //
 
-#mp-header {
-  margin-bottom: 15px;
-}
-
-.line-height
-{
-  line-height:20px;
-}
-
-.ui-tooltip, .arrow:after {
-  background: black;
-  border: 2px solid white;
-}
-.ui-tooltip {
-  position:absolute;
-  padding: 10px 20px;
-  color: white;
-  border-radius: 20px;
-  font: bold 14px "Helvetica Neue", Sans-Serif;
-  text-transform: uppercase;
-  box-shadow: 0 0 7px black;
-}
-
-.xperiabg, .accessories {
-  h1,h2,h3,h4,h5,h6 {
-    color:#ffffff;
-  }
-}
-
-.products_comp {
-  p {
-    font-size: 12px;
-  } 
-}
-
-.accessories .main {
-  background-color: #d68343;
-  background-image: url('/sony/images/xperiabg.jpg');
-  background-repeat: repeat-y;
-}
-
-.smartphones .main,
-.tablets .main,
-.promotions .main {
-  background-color: #000000;
-  background-image: url('/sony/images/xperiabg.jpg');
-  background-repeat: repeat-y;
-}
+// special casing header background
+// should really restructure project so we can use a modifier class of header
+.accessories .header { background: $sony-orange; }
+.coolstuff   .header { background: $sony-blue; }

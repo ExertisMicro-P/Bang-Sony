@@ -1,0 +1,116 @@
+// this really needs to be refactored (with the html) to work as a column
+// sortable html table. we're doing far too much manual work at the moment in
+// order to get this layout to work
+
+.comparison-table {
+  position: relative;
+  float: none;
+  width: 100%;
+  margin-top: 30px;
+  color: $body-text;
+
+  @extend .clearfix;
+
+  // slider theme
+  .bx-wrapper {
+    float: none;
+    padding: 0;
+    margin: 0;
+
+    .bx-viewport {
+      float: none;
+      left: 0;
+      border: none;
+      background: none;
+      box-shadow: none;
+    }
+
+    .bx-loading {
+      background-image: url('/sony/images/slider/bx_loader.gif');
+    }
+    .bx-controls-direction a {
+      top: 50px;
+    }
+    .bx-prev {
+      left: -40px;
+      background-image: url('/sony/images/slider/controls.png');
+    }
+    .bx-next {
+      right: -40px;
+      background-image: url('/sony/images/slider/controls.png');
+    }
+  }
+
+  // show not be nested, but neccessary for specificity override on headings
+  .comparison-table__attribute {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: $body-text;
+    background: rgb(214, 131, 67); // fallback for older browsers
+    background: linear-gradient(to right, rgba(214,131,67,1) 0%, rgba(167,160,154,0.07) 53%, rgba(125,185,232,0.07) 100%); 
+  }
+}
+
+.comparison-table__product {
+  float: left;
+  font-size: 12px !important;
+}
+
+.comparison-table__handle {
+  float: none;
+  cursor: move;
+}
+
+.comparision-table__product-title {
+  margin-top: 20px;
+  font-size: 14px !important;
+  font-weight: bold;
+  text-align: center;
+  color: $body-text;
+}
+
+.comparision-table__product-image {
+  float: none;
+  height: 80px;
+  margin: 0 auto;
+}
+
+$attr_line-height: 16px; // makes life here a little easier, but still makes me sad :(
+
+.comparision-table__product-attribute {
+  margin: 70px 0;
+  font-size: 12px !important;
+  line-height: $attr_line-height;
+
+  &:first-child {
+    margin-top: 100px;
+  }
+}
+
+// we need to set a fixed height on the rows in order for the layout to work.
+// this needs to be updated as the content changes.
+.comparision-table__product-attribute--camera        { height: $attr_line-height * 10; }
+.comparision-table__product-attribute--screen        { height: $attr_line-height * 7; }
+.comparision-table__product-attribute--processor     { height: $attr_line-height * 6; }
+.comparision-table__product-attribute--memory        { height: $attr_line-height * 5; }
+.comparision-table__product-attribute--battery       { height: $attr_line-height * 5; }
+.comparision-table__product-attribute--android       { height: $attr_line-height * 5; }
+.comparision-table__product-attribute--connectivity  { height: $attr_line-height * 18; }
+.comparision-table__product-attribute--features      { height: $attr_line-height * 11; }
+.comparision-table__product-attribute--weight        { height: $attr_line-height * 1; }
+.comparision-table__product-attribute--dimensions    { height: $attr_line-height * 2; }
+.comparision-table__product-attribute--network       { height: $attr_line-height * 1; }
+
+.comparison-table__drag-placeholder {
+  display: block;
+  float: left;
+  width: 86px; // = product width - the border width
+  height: 2000px;
+  margin-right: 10px;
+  background-color: rgba(255,255,255,0.3);
+}

@@ -1,31 +1,27 @@
-<div class="accessories sp_products container--margin__reset">
+<div class="accessories grid_25 alpha omega">
 
   {{> header}}
 
-  <div class="main grid_25">
-
   {{#each accessories.products}}
-    <div class="grid_25 product product--accessory">
-      <div class="product__details">
+    <div class="product product--accessory">
+      <div class="product__main">
         <h2 class="product__title">{{{title}}}</h2>
         <p class="product__desc">{{{description}}}</p>
         <div class="available-colours">
           <h3>Available colours</h3>
           <ul class="available-colours__swatches">
             {{#each colours}}
-              <li class="{{slugify .}}"><span>{{.}}</span></li>
+              <li class="available-colours__swatch available-colours__swatch--{{slugify .}}"><span>{{.}}</span></li>
             {{/each}}
           </ul>
         </div>
         <a class="sony-button" href="{{link}}">Find out more</a>
       </div>
-      <div class="product__image">
-        <img src="{{image}}" alt="Image of {{{title}}}"/>
+      <div class="product__aside">
+        <img class="product__image" src="{{image}}" alt="Image of {{{title}}}"/>
       </div>
     </div>
   {{/each}}
-
-  </div>
 
 </div>
 

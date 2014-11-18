@@ -1,0 +1,38 @@
+.news-story {
+  margin: 0;
+  padding: 60px 0;
+  color: $body-text;
+}
+
+.news-story__main {
+  float: right;
+  width: 550px;
+  margin-left: 40px;
+  margin-right: 60px;
+
+  // this shouldn't really be nested, but neccessary to override
+  // `.sony-microsite h[X]` selector
+  .news-story__title {
+    height: auto;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: $body-text;
+  }
+}
+
+.news-story__aside {
+  float: left;
+  width: 280px;
+  margin-left: 60px;
+}
+
+.news-story__image {
+  max-width: 100%;
+}
+
+.news-story__body {
+  p {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+}

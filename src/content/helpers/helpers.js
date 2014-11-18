@@ -8,8 +8,6 @@ module.exports.register = function (Handlebars, options) {
       .replace(/ +/g,'-');
   });
 
-
-  // TODO - http://handlebarsjs.com/block_helpers.html
   // ref: http://stackoverflow.com/a/16315366/885540
   Handlebars.registerHelper('ifCond', function (v1, operator, v2, options) {
     switch (operator) {
@@ -34,7 +32,6 @@ module.exports.register = function (Handlebars, options) {
     }
   });
 
-  // TODO - http://handlebarsjs.com/block_helpers.html
   // for determining when #each loops is halfway through a hash
   Handlebars.registerHelper('ifHalfway', function (index, hash, options) {
     var length = Object.keys(hash).length;

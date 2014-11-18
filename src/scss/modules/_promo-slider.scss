@@ -1,0 +1,114 @@
+.promo-slider {
+  position: relative;
+  margin: 0;
+
+  .promo-slider__slides {
+    padding: 0;
+    margin: 0;
+  }
+
+  // slider theme
+  .bx-wrapper {
+    padding: 0;
+    margin: 0;
+
+    .bx-viewport {
+      left: 0;
+      border: none;
+      background: none;
+      box-shadow: none;
+    }
+
+    .bx-controls-direction a {
+      position: absolute;
+      top: auto;
+      bottom: 3%;
+    }
+
+    .bx-loading {
+      background-image: url('/sony/images/slider/bx_loader.gif');
+    }
+    .bx-prev {
+      left: 400px;
+      background-image: url('/sony/images/slider/controls.png');
+    }
+    .bx-next {
+      right: 400px;
+      background-image: url('/sony/images/slider/controls.png');
+    }
+
+    .bx-pager {
+      left: 445px; // = (990px - pager width (100px when 5 slides)) / 2
+      bottom: 25px;
+
+      a {
+        background: #666;
+        &:hover  { background: #878787; }
+        &.active { background: #fff; }
+      }
+    }
+  }
+}
+
+.promo-slide {
+  padding: 30px 0;
+  min-height: 410px;
+}
+
+.promo-slide__slogan {
+  float: none;
+  font-size: 16px;
+  color: $body-text;
+}
+
+.promo-slide__main {
+  float: left;
+  width: 260px;
+  margin-left: 60px;
+
+  // this shouldn't really be nested, but neccessary to override
+  // `.sony-microsite h[X]` selector
+  .promo-slide__title {
+    margin: 30px 0;
+    font-size: 34px;
+    text-transform: uppercase;
+    color: $body-text;
+  }
+
+  // this shouldn't really be nested, but neccessary to override
+  // `.sony-microsite h[X]` selector
+  .promo-slide__tagline {
+    margin: 30px 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $body-text;
+  }
+}
+
+.promo-slide__aside {
+  float: left;
+  width: 540px;
+  margin: 0 60px;
+}
+
+.promo-slide__image {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.promo-slide__body {
+  font-size: 14px;
+  line-height: 20px;
+  color: $body-text;
+
+  p {
+    margin-bottom: 30px;
+  }
+}
+
+.promo-slide--red    .promo-slide__tagline { color: $sony-red; }
+.promo-slide--orange .promo-slide__tagline { color: $sony-orange; }
+.promo-slide--green  .promo-slide__tagline { color: $sony-green; }
+.promo-slide--blue   .promo-slide__tagline { color: $sony-blue; }

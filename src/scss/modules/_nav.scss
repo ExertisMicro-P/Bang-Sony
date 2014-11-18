@@ -1,7 +1,7 @@
 .nav {
   display: table;
   float: none;
-  margin: 20px auto 0 auto;
+  margin: 0 auto;
 }
 
 .nav__menu {
@@ -38,22 +38,18 @@
 
   &:hover {
     color: #fff;
-    background: #ae1825; // fallback for older browsers
-    background: linear-gradient(to bottom, #ae1825 0%, #c22e37 15%, #c22e37 15%, #c22e37 85%,#ae1825 100%);
+    @include inset-box-gradient($sony-red, $sony-lighter-red);
   }
 }
 
 .nav__link--tablet:hover {
-  background: #588436; // fallback for older browsers
-  background: linear-gradient(to bottom, #588436 0%, #739e4d 15%, #739e4d 85%, #588436 100%);
+  @include inset-box-gradient($sony-green, $sony-lighter-green);
 }
 
 .nav__link--accessory:hover {
-  background: #c8692f; // fallback for older browsers
-  background: linear-gradient(to bottom, #c8692f 0%, #d68343 15%, #d68343 85%, #c8692f 100%);
+  @include inset-box-gradient($sony-orange, $sony-lighter-orange);
 }
 
 .nav__link--coolstuff:hover {
-  background: #216ca8; // fallback for older browsers
-  background: linear-gradient(to bottom, #216ca8 0%, #3287bd 15%, #3287bd 85%, #216ca8 100%);
+  @include inset-box-gradient($sony-blue, $sony-lighter-blue);
 }

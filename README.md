@@ -5,11 +5,13 @@ This project is based on the [Bang-Conect](https://github.com/ExertisMicro-P/Ban
 Bang's test site: [http://sony.microp.bang-on.net/?project=sony](http://sony.microp.bang-on.net/?project=sony)
 
 ## TODO
-* Move inline styling into SCSS modules.
 * Move styles from [_shame.scss](./src/scss/_shame.scss) to abstracted modules.
-* Make better use of [assemble](https://github.com/assemble/assemble) templating to DRY up the markup.
 * Refactor comparison table markup so that we don't have to manually position headings when content changes.
-* Can we abstract modules into a single `box` module with variant(s)?
+* Can we abstract `home-section`, `product`, `coolstuff-section`, `document-download` & `news-story` modules into a single `box` module with variant(s)?
+* Can we abstract the `product` partial further so that we can use it for accessories as well as smartphones and tablets?
+* Can improve the way we’re rendering the product specifications? The custom `ifHalfway` handlebars helper is a bit gross.
+* Better workflow for `src/js`. Ideally we want to concatenate 3rd party plugins and our custom scripts on `grunt build` or `grunt watch`. 3rd party plugins can be minified, our custom scripts should be left un-minified so Exertis can debug deployment issues.
+* Add linting task to grunt for our custom scripts in `src/js`
 
 ## Getting started
 

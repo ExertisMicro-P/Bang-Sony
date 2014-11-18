@@ -1,0 +1,230 @@
+{
+  "products": [
+    {
+      "title": "Z3",
+      "image": "images/smartphones/z3.png",
+      "attributes": {
+        "camera": "20.7 MP camera with auto focus, 2.2 MP front-facing camera, 4K video &amp; ISO 12800",
+        "screen": "5.2 inch 1080p Full HD TRILUMINOS IPS Display with X-Reality&trade;",
+        "processor": "Snapdragon 2.5 GHz Qualcomm Quad-core, Adreno 330 GPU",
+        "memory": "16GB / SD Card slot",
+        "battery": "Up to 2 days battery life** and Battery STAMINA Mode",
+        "android": "Android 4.4 KitKat",
+        "connectivity": "Bluetooth&reg; 4.0 wireless technology, 3.5 mm audio jack with Digital Noise Cancelling (DNC), DLNA Certified&reg;, NFC, USB High speed 2.0 and Micro USB support, Wi-Fi&reg; and Wi-Fi Hotspot functionality, ANT+ wireless technology",
+        "features": "Highest waterproof rating IP65/68*, PS4&trade; gaming***, Snapdragon 801",
+        "weight": "152 grams",
+        "dimensions": "146 x 72 x 7.3 mm",
+        "network": "4G LTE"
+      }
+    },
+    {
+      "title": "Z3 Compact",
+      "image": "images/smartphones/z3compact.png",
+      "attributes": {
+        "camera": "20.7 MP camera with auto focus, 2.2 MP front-facing camera, ISO 12800",
+        "screen": "4.6 inch 720p TRILUMINOS&trade; Display for mobile with X-Reality&trade;",
+        "processor": "Snapdragon 2.5 GHz Qualcomm Quad-core, Adreno 330 GPU",
+        "memory": "16GB / SD Card slot",
+        "battery": "Up to 2 days battery life** and Battery STAMINA Mode",
+        "android": "Android 4.4 KitKat",
+        "connectivity": "Bluetooth&reg; 4.0 wireless technology, 3.5 mm audio jack with Digital Noise Cancelling (DNC), DLNA Certified&reg;, NFC, USB High speed 2.0 and Micro USB support, Wi-Fi&reg; and Wi-Fi Hotspot functionality, ANT+ wireless technology",
+        "features": "Highest waterproof rating IP65/68*, PS4&trade; gaming***, Snapdragon 801",
+        "weight": "129 grams",
+        "dimensions": "127 x 64.9 x 8.6 mm",
+        "network": "4G LTE"
+      }
+    },
+    {
+      "title": "E3",
+      "image": "images/smartphones/e3.png",
+      "attributes": {
+        "camera": "5 megapixels, HD video recording, Front-facing VGA",
+        "screen": "4.5\" IPS display",
+        "processor": "Qualcomm Snapdragon 1.2 GHz quad core, Adreno 305 GPU",
+        "memory": "4GB / SD Card slot",
+        "battery": "2330 mAh and Battery STAMINA Mode",
+        "android": "Android 4.4 KitKat",
+        "connectivity": "v3.5mm audio jack (CTIA), Bluetooth 4.0 wireless technology, USB High speed 2.0 and Micro USB support, Wi-Fi&reg; and Wi-Fi Hotspot functionality, Smart connect, ANT+ wireless technology",
+        "features": "Slim and light design, Smart social camera, Faster entertainment with 4G",
+        "weight": "144 grams",
+        "dimensions": "137.1 x 69.4 x 8.5 mm",
+        "network": "4G LTE"
+      }
+    },
+    {
+      "title": "M2",
+      "image": "images/smartphones/m2.png",
+      "attributes": {
+        "camera": "8 megapixels 4 x digital zoom HD video recording (1080 p) Front-facing camera (VGA)",
+        "screen": "4.8\" display 960 x 540 pixels and 16,777,216-colour TFT",
+        "processor": "1.2 GHz Qualcomm Quad Core processor",
+        "memory": "8GB internal 1GB RAM Micro SD card slot (up to 32GB)",
+        "battery": "Talk time up to 12 hrs 11 mins",
+        "android": "Android 4.3 Jelly Bean (Upgradedable to Android 4.4 KitKat)",
+        "connectivity": "Bluetooth 4.0 and Wi-Fi",
+        "features": "Geo-tagging, Touch focus, Face and smile detection, Image stabilization, HDR, panorama",
+        "weight": "148 grams",
+        "dimensions": "139.6 x 71.1 x 8.6 mm",
+        "network": "4G LTE"
+      }
+    },
+    {
+      "title": "Z2",
+      "image": "images/smartphones/z2.png",
+      "attributes": {
+        "camera": "20.7 MP Exmor RS for mobile image sensor, 8x digital zoom, 4K video capture, HD video recording 1080p Front facing camera 2.2 MP",
+        "screen": "5.2 inch Full HD, TRILUMINOS Display for X-Reality for mobile picture engine",
+        "processor": "2.3 GHz Qualcomm QuadCore processor",
+        "memory": "16GB internal 3GB RAM Micro SD card slot (up to 64GB)",
+        "battery": "Talk time up to 19 hrs",
+        "android": "Android 4.4 KitKat",
+        "connectivity": "aGPS, Bluetooth 4.0, DLNA Certified, NFC, Wi-Fi Miracast and Wi-Fi",
+        "features": "Waterproof (IP55 and IP58) and dust-resistant (IP55)*, Social live, Timeshift, Background defocus, Movie creator, Creative effects, Info-eye",
+        "weight": "163 grams",
+        "dimensions": "146.8 x 73.3 x 8.2mm",
+        "network": "4G LGE"
+      }
+    },
+    {
+      "title": "Z1 Compact",
+      "image": "images/smartphones/z1Compact.png",
+      "attributes": {
+        "camera": "20.1 MP with Exmor RS HDR Sony G Lens BIONZ image processor",
+        "screen": "4.3 inch Full HD 720 x 1280 pixels (342 ppi) TRILUMINOS and X-Reality Engine",
+        "processor": "2.2 GHz QuadCore Snapdragon 800 CPU Adreno 330 GPU",
+        "memory": "16GB internal 2GB RAM Micro SD Card slot",
+        "battery": "Talk time up to 18 hrs",
+        "android": "Android 4.3 Jelly Bean (Upgradedable to Android 4.4 KitKat)",
+        "connectivity": "NFC - Wi-Fi Direct with screen mirroring bluetooth",
+        "features": "Waterproof (IP55 and IP58) and dust-resistant (IP55)*, Social live, Timeshift, AR Effect, Info-eye",
+        "weight": "137 grams",
+        "dimensions": "127 x 64.9 x 9.5mm",
+        "network": "4G LTE"
+      }
+    },
+    {
+      "title": "Z1",
+      "image": "images/smartphones/z1.png",
+      "attributes": {
+        "camera": "20.7 MP with Exmor RS HDR Sony G Lens BIONZ image processor F2.0 aperture ISO 6400+ 2MP front facing",
+        "screen": "5 inch LCD Full HD 1980 x 1080 pixels TRILUMINOS and X-Reality Engine",
+        "processor": "2.2 GHz QuadCore Snapdragon 800 CPU Adreno 330 GPU",
+        "memory": "16GB internal 2GB RAM Micro SD Card slot (Up to 64GB)",
+        "battery": "Talk time up to 14 hrs",
+        "android": "Android 4.2.2 Jelly Bean",
+        "connectivity": "NFC - Wi-Fi Direct with screen mirroring - HDML out (via MHL micro USB) Magnetic charging port",
+        "features": "Sony Media Apps Waterproof (1.5 metres), Social live, DualShock3 compatible",
+        "weight": "170 grams",
+        "dimensions": "144 x 74 x 8.5mm",
+        "network": "4G LTE"
+      }
+    },
+    {
+      "title": "Z Ultra",
+      "image": "images/smartphones/z1Ultra.png",
+      "attributes": {
+        "camera": "8 MP Camera with Exmor RS HDR for photos 2MP front facing with Exmor R",
+        "screen": "6.4 inch TFT/LED Full HD 1980 x 1080 pixels TRILUMINOS and X-Reality Engine",
+        "processor": "2.2 GHz QuadCore Snapdragon 800 CPU Adreno 330 GPU",
+        "memory": "16GB internal 2GB RAM Micro SD Card slot (Up to 64GB)",
+        "battery": "Talk time up to 16 hrs",
+        "android": "Android 4.2.2 Jelly Bean",
+        "connectivity": "NFC - Wi-Fi Direct with screen mirroring - HDML out (via MHL micro USB)",
+        "features": "Sony Media Apps Waterproof (1.5 metres), Dust resistant, Social live, DualShock3 compatible",
+        "weight": "212 grams",
+        "dimensions": "179 x 92 x 6.5mm",
+        "network": "4G LTE"
+      }
+    },
+    {
+      "title": "SP",
+      "image": "images/smartphones/sp.png",
+      "attributes": {
+        "camera": "8 MP Camera with Exmor RS HDR for photos VGA front facing",
+        "screen": "4.6 inch TFT/LED 720p HD with gorilla glass (319 ppi) Mobile BRAVIA Engine 2",
+        "processor": "1.7 GHz QuadCore Snapdragon S4 Pro Adreno 320 GPU",
+        "memory": "8GB internal 1GB RAM Micro SD Card slot (Up to 64GB)",
+        "battery": "Talk time up to 16 hrs",
+        "android": "Android 4.1.2 Jelly Bean",
+        "connectivity": "NFC - Wi-Fi Direct HDML out (via MHL micro USB) Bluetooth V4.0",
+        "features": "Sony Media Apps LED illumination bar, Glove mode, DualShock3 compatible",
+        "weight": "155 grams",
+        "dimensions": "130.6 x 67.1 x 9.98mm",
+        "network": "4G LTE"
+      }
+    },
+    {
+      "title": "M",
+      "image": "images/smartphones/m.png",
+      "attributes": {
+        "camera": "5 MP Camera with HDR for photos HD Video recording VGA front facing",
+        "screen": "4 inch TFT 854 x 480 pixels (245 ppi)",
+        "processor": "1 GHz DualCore Snapdragon S4 Plus Adreno 305 GPU",
+        "memory": "4GB internal 1GB RAM Micro SD Card slot (Up to 32GB)",
+        "battery": "Talk time up to 10 hrs 18 mins",
+        "android": "Android 4.1.2 Jelly Bean",
+        "connectivity": "NFC - Wi-Fi Direct with screen mirroring - HDML out (via MHL micro USB)",
+        "features": "Sony Media Apps, Playstation Mobile, HD Voice, XLoud",
+        "weight": "115 grams",
+        "dimensions": "124 x 62 x 9.3mm",
+        "network": "3G HSDPA +"
+      }
+    },
+    {
+      "title": "L",
+      "image": "images/smartphones/l.png",
+      "attributes": {
+        "camera": "8 MP Camera with Exmor RS HDR for photos VGA front facing",
+        "screen": "4.3 inch TFT/LED 720p HD with gorilla glass (319 ppi) Mobile BRAVIA Engine 2",
+        "processor": "1 GHz DualCore Snapdragon S4 Plus Adreno 305 GPU",
+        "memory": "8GB internal 1GB RAM Micro SD Card slot (Up to 32GB)",
+        "battery": "Talk time up to 8 hrs 30 mins",
+        "android": "Android 4.1.2 Jelly Bean",
+        "connectivity": "NFC - Wi-Fi Direct with screen mirroring - HDML out (via MHL micro USB)",
+        "features": "Sony Media Apps, LED illumination bar, Playstation Mobile, HD Voice",
+        "weight": "137 grams",
+        "dimensions": "126 x 65 x 9.7mm",
+        "network": "3G HSDPA+"
+      }
+    },
+    {
+      "title": "E1",
+      "image": "images/smartphones/e1.png",
+      "attributes": {
+        "camera": "3 MP with HD video recording",
+        "screen": "4 inch 480 x 800 pixels",
+        "processor": "1.2 GHz Qualcomm dual-core",
+        "memory": "4GB internal 512MB RAM Micro SD card slot (up to 32GB)",
+        "battery": "Talk time up to 9 hours 12 mins",
+        "android": "Android 4.3 Jelly Bean (Upgradedable to Android 4.4 KitKat)",
+        "connectivity": "Wi-Fi and Wi-Fi Hotspot functionality Native USB tethering",
+        "features": "Noise suppression, Voice enhancement, HD Voice, Friends application, Handwriting recognition, Instant messaging",
+        "weight": "120 grams",
+        "dimensions": "118 x 62.4 x 12mm",
+        "network": "3G HSDPA+"
+      }
+    },
+    {
+      "title": "E",
+      "image": "images/smartphones/e.png",
+      "attributes": {
+        "camera": "3.2 MP Camera with 4x digital zoom VGA video recording",
+        "screen": "3.5 inch TFT 480 x 320 pixels",
+        "processor": "1 GHz Snapdragon",
+        "memory": "4GB internal 512 MB RAM Micro SD Card Slot (up to 32 GB)",
+        "battery": "Talk time up to 6 hrs 12 mins",
+        "android": "Android 4.1.2 Jelly Bean",
+        "connectivity": "Wi-Fi DLNA networth sharing Bluetooth A2DP",
+        "features": "HD Voice, Walkman, XLoud, Data Management",
+        "weight": "115 grams",
+        "dimensions": "113.5 x 61.8 x 11mm",
+        "network": "3G HSDPA+"
+      }
+    }
+  ],
+  "footnotes": [
+    "* In compliance with IP65 and IP68, the Xperia Z3 and Xperia Z3 Compact are protected against the ingress of dust and is waterproof. Provided that all ports and covers are firmly closed, the phone is (i) dust tight and (ii) protected against low pressure jets of water from all practicable directions in compliance with IP65; and/or (iii) can be kept under 1.5 m of fresh water for up to 30 minutes in compliance with IP68. In compliance with IP55 and IP58, the Xperia Z2, Xperia Z1 Compact and Xperia Z Ultra are protected against the ingress of dust and is waterproof. Provided that all ports and covers are firmly closed, the phone is (i) protected against low pressure jets of water from all practicable directions in compliance with IP55; and/or (ii) can be kept under 1.5 m of fresh water for up to 30 minutes in compliance with IP58. For more information go to: <a href='http://www.sonymobile.com/testresults'>www.sonymobile.com/testresults</a></p>",
+    "** Based on multiple battery performance testings conducted between July and September 2014 in a laboratory under an active use conditions reflective of the Typical Smartphone User by Sony Mobile Communications AB. For more information go to: <a href='http://www.sonymobile.com/testresults'>www.sonymobile.com/testresults</a></p>",
+    "*** Functionality available on Sony Xperia Z3 and Z3 Compact starting from November 2014. PlayStation&reg;4 System, DUALSHOCK&reg;4, Sony Entertainment Network and high speed internet connection required. Some games may not support this feature. Limited time offer, go to <a href='http://www.sonymobile.com'>www.sonymobile.com</a> for more information.</p>"
+  ]
+}

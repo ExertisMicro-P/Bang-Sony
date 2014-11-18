@@ -21,31 +21,32 @@ $swatch_diameter: 18px;
 
 .available-colours {
   float: none; // for some reason all <divs> are floated? this makes life difficult.
-
-  .available-colours__swatches {
-    margin: 20px 0 0 0;
-  }
-
-  .available-colours__swatches li {
-    display: inline-block;
-    height: $swatch_diameter;
-    width: $swatch_diameter;
-    margin-right: 4px;
-    border-radius: 50%;
-
-    span {
-      // hide the label from display, but not screenreaders
-      @extend .visuallyhidden;
-    }
-  }
-
-  .black          { @include swatch(#000); }
-  .white          { @include swatch(#fff); }
-  .yellow         { @include swatch(#f0e76f); }
-  .pink           { @include swatch(#fab5c4); }
-  .purple         { @include swatch(#5b408d); }
-  .turquoise      { @include swatch(#42c1a8); }
-  .brown          { @include swatch(#af7767); }
-  .orange         { @include swatch(#ff9c56); }
-  .black-and-grey { @include swatch(#000, #777); }
 }
+
+.available-colours__swatches {
+  margin: 20px 0;
+  padding: 0;
+}
+
+.available-colours__swatch {
+  display: inline-block;
+  height: $swatch_diameter;
+  width: $swatch_diameter;
+  margin-right: 4px;
+  border-radius: 50%;
+
+  span {
+    // hide the label from display, but not screenreaders
+    @extend .visuallyhidden;
+  }
+}
+
+.available-colours__swatch--black          { @include swatch(#000); }
+.available-colours__swatch--white          { @include swatch(#fff); }
+.available-colours__swatch--yellow         { @include swatch(#f0e76f); }
+.available-colours__swatch--pink           { @include swatch(#fab5c4); }
+.available-colours__swatch--purple         { @include swatch(#5b408d); }
+.available-colours__swatch--turquoise      { @include swatch(#42c1a8); }
+.available-colours__swatch--brown          { @include swatch(#af7767); }
+.available-colours__swatch--orange         { @include swatch(#ff9c56); }
+.available-colours__swatch--black-and-grey { @include swatch(#000, #777); }

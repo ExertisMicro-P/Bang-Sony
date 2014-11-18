@@ -1,6 +1,7 @@
-<div class="sp_products container--margin__reset">
+<div class="news grid_25 alpha omega">
 
-  <div class="grid_25 header">
+  
+<div class="header">
   <div class="nav">
     <ul class="nav__menu">
       <li class="nav__item">
@@ -50,29 +51,26 @@
   </div>
 
   <img class="header__sony-logo" src="images/sony-logo.png" alt="Sony"/>
-  <img class="header__xperia-logo" src="images/xperia.png" alt="Xperia&trade;"/>
+  <img class="header__xperia-logo" src="images/xperia-logo.png" alt="Xperia&trade;"/>
   <h2 class="header__tagline">Demand great</h2>
 </div>
 
 
-  <div class="grid_25 xperiabg">
-    <a id="z1"></a>
-    <div class="grid_25 product alpha">
-      <div class="grid_8 prefix_1">
-        <img class="block" src="images/news/infographicsStr.png" alt=""/>
-
-      </div>
-      <div class="grid_14">   
-        <h2>So, what are the benefits of a waterproof phone?</h2>
-        </br>
+  <div class="news-story">
+    <div class="news-story__main">
+      <h3 class="news-story__title">So, what are the benefits of a waterproof phone?</h3>
+      <div class="news-story__body">
         <p>We know you want to take your phone with you wherever you go – so it’s important for Xperia devices to be well protected. But, just in case you weren’t clear on why we put so much effort into making sure your phone is ready for those clumsy moments or last minute rainstorms, check out the infographic we’ve created.</p>
-        </br>
         <p>You can download a high-res, print resolution version of the infographic by clicking the button below...</p>
-        <a id="infographic" href="#"><span class="sony-button">VIEW</span></a>
-        <a href="http://bit.ly/1pL3gP6"><span class="sony-button">DOWNLOAD</span></a>
       </div>
+      <a class="sony-button js-lightbox" href="#" data-file-path="images/news/waterproof-phone-benefits-infographic.jpg">View</a>
+      <a class="sony-button" href="http://bit.ly/1pL3gP6">Download</a>
+    </div>
+    <div class="news-story__aside">
+      <img class="news-story__image" src="images/news/waterproof-phone-benefits-infographic-preview.png" alt="Preview image of the benefits of a waterproof phone infographic"/>
     </div>
   </div>
+
 </div>
 
 <!-- scripts -->
@@ -80,12 +78,12 @@
 
 function initPage() {
   head.load(prefixURL + "js/fancybox/jquery.fancybox-1.3.4.css");
-  head.load(prefixURL + "js/fancybox/jquery.fancybox-1.3.4.js", function(){
-    $("a#infographic").fancybox();
+  head.load(prefixURL + "js/fancybox/jquery.fancybox-1.3.4.js", function() {
+    // prefix any lightbox URLs
+    $('.js-lightbox').each(function () {
+      $(this).attr('href', prefixURL + $(this).data('file-path')).fancybox();
+    });
   });
-
-  var path = prefixURL + "images/news/why_waterproof_a_smartphone.jpg";
-  document.getElementById("infographic").setAttribute("href", path);
 }
 
 </script>

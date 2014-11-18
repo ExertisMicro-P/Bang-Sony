@@ -1,0 +1,29 @@
+.document-download {
+  margin: 0;
+  padding: 60px 0;
+  color: $body-text;
+}
+
+.document-download__main {
+  float: right;
+  width: 550px;
+  margin-left: 40px;
+  margin-right: 60px;
+}
+
+.document-download__aside {
+  float: left;
+  width: 280px;
+  margin-left: 60px;
+}
+
+.document-download__image {
+  max-width: 100%;  
+}
+
+.document-download__desc {
+  p {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+}

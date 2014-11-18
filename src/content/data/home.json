@@ -1,0 +1,110 @@
+{
+  "slides": [
+    {
+      "title": "Xperia&trade; Z3",
+      "tagline": "Demand great",
+      "body": "<p>Details make the difference between good and great.</p>",
+      "internal_link": "smartphones#z3",
+      "image": "images/slider/z3.jpg",
+      "colour": "blue"
+    },
+    {
+      "title": "Xperia&trade; Z3 Compact",
+      "tagline": "Demand great in a compact smartphone",
+      "body": "<p>Good is compact, great is a compact smartphone with uncompromised performance.</p>",
+      "internal_link": "smartphones#z3compact",
+      "image": "images/slider/z3compact.jpg",
+      "colour": "blue"
+    },
+    {
+      "title": "Xperia&trade; E3",
+      "tagline": "Demand great fun",
+      "body": "<p>Good is expected, great makes you smile.</p>",
+      "internal_link": "smartphones#e3",
+      "image": "images/slider/e3.jpg",
+      "colour": "red"
+    },
+    {
+      "title": "Xperia&trade; M2",
+      "tagline": "Premium experiences, ultra-fast",
+      "body": "<p>The Xperia M2 boasts a big, bright 4.8 inch qHD display, built with Sony’s TV expertise.</p>",
+      "internal_link": "smartphones#m2",
+      "image": "images/slider/m2.jpg",
+      "colour": "red"
+    },
+    {
+      "title": "Xperia&trade; Tablet Z2",
+      "tagline": "A tablet for everything you need",
+      "body": "<p>Incredible viewing and amazing sound – all in a super-slim, ultra-light tablet.</p>",
+      "internal_link": "tablets#tabletz2",
+      "image": "images/slider/z2tablet.jpg",
+      "colour": "green"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Smartphones",
+      "body": "<p>Packed with entertainment and powered by Android, Sony's Xperia&trade; smartphones are fast and reliable; tough as well as beautiful. With all the clarity and performance you'd expect from Sony &#45; advanced screen technology and cameras as good as the best Sony compacts. The majority come with one&#45;touch NFC, so sharing your world has never been easier.</p>",
+      "internal_link": "smartphones",
+      "tagline": "<strong>best</strong> conversations",
+      "image": "images/homepage/smartphones.png",
+      "colour": "red"
+    },
+    {
+      "title": "Tablets",
+      "body": "<p>We've built the best of Sony into our Xperia&trade; tablets. So get ready for uncompromising speed and sound, stunning images and truly immersive viewing and gaming. They're bursting with entertainment opportunities, and ready for one-touch connection with your TV and other devices. Of course, with all the strength and style you'd expect from Sony.</p>",
+      "internal_link": "tablets",
+      "tagline": "<strong>best</strong> movies",
+      "image": "images/homepage/tablets.png",
+      "colour": "green"
+    },
+    {
+      "title": "Accessories",
+      "body": "<p>Empower your mobile life. From head&#45;sets to SmartWatch, tablet stands to charging docks, Sony's accessories let you do a little bit more.</p>",
+      "internal_link": "accessories",
+      "tagline": "<strong>best</strong> accessories",
+      "image": "images/homepage/watches.png",
+      "colour": "orange"
+    },
+    {
+      "title": "Cool stuff",
+      "body": "<p>Welcome to Sony Xperia&trade; family! We want you to get the most from your new smartphone or tablet, and here's some cool stuff that will help. Xperia&trade; Transfer and Xperia&trade; Care will get you up and running fast. Plug in to Sony Entertainment Network, or try&#45;out Xperia&trade; Lounge for exclusive offers and promotions.</p>",
+      "internal_link": "coolstuff",
+      "tagline": "<strong>best</strong> experiences",
+      "image": "images/homepage/coolstuff.png",
+      "colour": "blue"
+    }
+  ],
+  "services": [
+    {
+      "title": "Sony select",
+      "description": "Need a few tips on which apps to download from Google Play Store? Let Sony Select show you the best of the bunch.",
+      "image": "images/homepage/sonyselect.jpg"
+    },
+    {
+      "title": "TV sideview",
+      "description": "Enjoy TV more. Get details on the programme you are watching, find content across various services or devices and operate your TV easily with your Xperia&trade; Tablet.",
+      "image": "images/homepage/tv_sideview.jpg"
+    },
+    {
+      "title": "Playstation mobile",
+      "description": "Make the most of PlayStation&reg; style gaming on the Xperia&trade; Tablet Z by using the on&#45;screen virtual DUALSHOCK controller to play your favourite games.",
+      "image": "images/homepage/playstation.jpg"
+    },
+    {
+      "title": "Movies",
+      "description": "Be entertained. Enjoy your favourite movies and TV shows with high picture and sound quality and the option to &quot;throw&quot; it to your DLNA enabled TV.",
+      "image": "images/homepage/movies.jpg"
+    },
+    {
+      "title": "Walkman",
+      "description": "Play, recommend, discover and experience songs in soul shaking clarity thanks to Sony's Clear Audio+ mode.",
+      "image": "images/homepage/walkman.jpg"
+    },
+    {
+      "title": "Social live",
+      "description": "Discover your favourite news, videos and social networking feeds in one place.",
+      "image": "images/homepage/social_life.jpg"
+    }
+  ]
+}
