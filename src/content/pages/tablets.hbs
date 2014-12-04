@@ -33,6 +33,11 @@ function initPage() {
       return false;
     });
   });
+
+  // performance optimised fade in for products as user scrolls
+  head.load(prefixURL + "js/scrolling-reveal.jquery.js", function() {
+    $('.js-scrolling-reveal').scrollingReveal();
+  });
 }
 
 </script>

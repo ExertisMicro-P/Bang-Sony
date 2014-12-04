@@ -57,7 +57,7 @@
 
 
   
-    <div id="tablet-z2" class="product product--red">
+    <div id="tablet-z2" class="product product--red js-scrolling-reveal">
   <div class="product__main">
     <h2 class="product__title">
       <img src="images/titles/tablet-z2.png" alt="Xperia&trade; Tablet Z2"/>
@@ -113,7 +113,7 @@
 </div>
 
   
-    <div id="tablet-z" class="product product--green">
+    <div id="tablet-z" class="product product--green js-scrolling-reveal">
   <div class="product__main">
     <h2 class="product__title">
       <img src="images/titles/tablet-z.png" alt="Xperia&trade; Tablet Z"/>
@@ -196,6 +196,11 @@ function initPage() {
       });
       return false;
     });
+  });
+
+  // performance optimised fade in for products as user scrolls
+  head.load(prefixURL + "js/scrolling-reveal.jquery.js", function() {
+    $('.js-scrolling-reveal').scrollingReveal();
   });
 }
 

@@ -154,7 +154,7 @@
   </div>
 
   
-    <div id="z3" class="product product--blue">
+    <div id="z3" class="product product--blue js-scrolling-reveal">
   <div class="product__main">
     <h2 class="product__title">
       <img src="/images/titles/z3.png" alt="Xperia&trade; Z3"/>
@@ -215,7 +215,7 @@
 </div>
 
   
-    <div id="z3-compact" class="product product--blue">
+    <div id="z3-compact" class="product product--blue js-scrolling-reveal">
   <div class="product__main">
     <h2 class="product__title">
       <img src="/images/titles/z3compact.png" alt="Xperia&trade; Z3 Compact"/>
@@ -276,7 +276,7 @@
 </div>
 
   
-    <div id="e3" class="product product--red">
+    <div id="e3" class="product product--red js-scrolling-reveal">
   <div class="product__main">
     <h2 class="product__title">
       <img src="/images/titles/e3.png" alt="Xperia&trade; E3"/>
@@ -327,7 +327,7 @@
 </div>
 
   
-    <div id="m2" class="product product--red">
+    <div id="m2" class="product product--red js-scrolling-reveal">
   <div class="product__main">
     <h2 class="product__title">
       <img src="/images/titles/m2.png" alt="Xperia&trade; M2"/>
@@ -383,7 +383,7 @@
 </div>
 
   
-    <div id="z2" class="product product--blue">
+    <div id="z2" class="product product--blue js-scrolling-reveal">
   <div class="product__main">
     <h2 class="product__title">
       <img src="/images/titles/z2.png" alt="Xperia&trade; Z2"/>
@@ -439,7 +439,7 @@
 </div>
 
   
-    <div id="z1-compact" class="product product--blue">
+    <div id="z1-compact" class="product product--blue js-scrolling-reveal">
   <div class="product__main">
     <h2 class="product__title">
       <img src="/images/titles/z1-compact.png" alt="Xperia&trade; Z1 Compact"/>
@@ -495,7 +495,7 @@
 </div>
 
   
-    <div id="z1" class="product product--orange">
+    <div id="z1" class="product product--orange js-scrolling-reveal">
   <div class="product__main">
     <h2 class="product__title">
       <img src="/images/titles/z1.png" alt="Xperia&trade; Z1"/>
@@ -551,7 +551,7 @@
 </div>
 
   
-    <div id="z-ultra" class="product product--red">
+    <div id="z-ultra" class="product product--red js-scrolling-reveal">
   <div class="product__main">
     <h2 class="product__title">
       <img src="/images/titles/z-ultra.png" alt="Xperia&trade; Z Ultra"/>
@@ -607,7 +607,7 @@
 </div>
 
   
-    <div id="m" class="product product--red">
+    <div id="m" class="product product--red js-scrolling-reveal">
   <div class="product__main">
     <h2 class="product__title">
       <img src="/images/titles/m.png" alt="Xperia&trade; M"/>
@@ -663,7 +663,7 @@
 </div>
 
   
-    <div id="sp" class="product product--orange">
+    <div id="sp" class="product product--orange js-scrolling-reveal">
   <div class="product__main">
     <h2 class="product__title">
       <img src="/images/titles/sp.png" alt="Xperia&trade; SP"/>
@@ -719,7 +719,7 @@
 </div>
 
   
-    <div id="l" class="product product--orange">
+    <div id="l" class="product product--orange js-scrolling-reveal">
   <div class="product__main">
     <h2 class="product__title">
       <img src="/images/titles/l.png" alt="Xperia&trade; L"/>
@@ -770,7 +770,7 @@
 </div>
 
   
-    <div id="e1" class="product product--orange">
+    <div id="e1" class="product product--orange js-scrolling-reveal">
   <div class="product__main">
     <h2 class="product__title">
       <img src="/images/titles/e1.png" alt="Xperia&trade; E1"/>
@@ -826,7 +826,7 @@
 </div>
 
   
-    <div id="e" class="product product--red">
+    <div id="e" class="product product--red js-scrolling-reveal">
   <div class="product__main">
     <h2 class="product__title">
       <img src="/images/titles/e.png" alt="Xperia&trade; E"/>
@@ -935,6 +935,11 @@ function initPage() {
       slideWidth: 86,
       slideMargin: 10
     });
+  });
+
+  // performance optimised fade in for products as user scrolls
+  head.load(prefixURL + "js/scrolling-reveal.jquery.js", function() {
+    $('.js-scrolling-reveal').scrollingReveal();
   });
 }
 
