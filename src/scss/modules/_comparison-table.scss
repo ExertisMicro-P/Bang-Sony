@@ -52,7 +52,8 @@
     text-transform: uppercase;
     color: $body-text;
     background: rgb(214, 131, 67); // fallback for older browsers
-    background: linear-gradient(to right, rgba(214,131,67,1) 0%, rgba(167,160,154,0.07) 53%, rgba(125,185,232,0.07) 100%); 
+    background: linear-gradient(to right, rgba(214,131,67,1) 0%, rgba(167,160,154,0.07) 53%, rgba(125,185,232,0.07) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d68343', endColorstr='#127db9e8', GradientType=1); // IE fallback
   }
 }
 
