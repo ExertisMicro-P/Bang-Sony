@@ -5,7 +5,7 @@
       "tagline": "Demand great",
       "body": "<p>Details make the difference between good and great.</p>",
       "internal_link": "smartphones#z3",
-      "image": "images/slider/z3.jpg",
+      "image": "images/slider/z3.png",
       "colour": "blue"
     },
     {
@@ -13,7 +13,7 @@
       "tagline": "Demand great in a compact smartphone",
       "body": "<p>Good is compact, great is a compact smartphone with uncompromised performance.</p>",
       "internal_link": "smartphones#z3compact",
-      "image": "images/slider/z3compact.jpg",
+      "image": "images/slider/z3compact.png",
       "colour": "blue"
     },
     {
@@ -21,7 +21,7 @@
       "tagline": "Demand great fun",
       "body": "<p>Good is expected, great makes you smile.</p>",
       "internal_link": "smartphones#e3",
-      "image": "images/slider/e3.jpg",
+      "image": "images/slider/e3.png",
       "colour": "red"
     },
     {
@@ -29,7 +29,7 @@
       "tagline": "Premium experiences, ultra-fast",
       "body": "<p>The Xperia M2 boasts a big, bright 4.8 inch qHD display, built with Sony’s TV expertise.</p>",
       "internal_link": "smartphones#m2",
-      "image": "images/slider/m2.jpg",
+      "image": "images/slider/m2.png",
       "colour": "red"
     },
     {
@@ -37,7 +37,7 @@
       "tagline": "A tablet for everything you need",
       "body": "<p>Incredible viewing and amazing sound – all in a super-slim, ultra-light tablet.</p>",
       "internal_link": "tablets#tabletz2",
-      "image": "images/slider/z2tablet.jpg",
+      "image": "images/slider/z2tablet.png",
       "colour": "green"
     }
   ],
